@@ -1,0 +1,2 @@
+# OpenRGB Supported Device
+ 
