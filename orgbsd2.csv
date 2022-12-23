@@ -1,0 +1,2858 @@
+RGBController,Category,Type,Name,VID,PID,SVID,SPID,Save,Direct,Effects,Comments
+"BloodyMouse","Mouse","USB","Bloody W60 Pro","09DA","37EA","","","❌","✔️","❌",""
+"BloodyMouse","Mouse","USB","Bloody MP 50RS","09DA","FA60","","","❌","✔️","❌",""
+"AMD Wraith Prism","Cooler","USB","AMD Wraith Prism","2516","0051","","","🚫","✔️","⚒️","The Wraith Prism comes with 2 cables but is only detectable
+and controlable when using the USB cable. `Morse Code` and `Mirage`
+modes have not been implemented. Saving to flash is supported by
+the device but not yet implemented."
+"ASrock Polychrome USB","Motherboard","USB","ASRock Polychrome USB","26CE","01A2","","","🤖","❌","✔️","ASRock Polychrome controllers will save with each update.
+Per ARGB LED support is not possible with these devices."
+"ASrock Polychrome USB","Motherboard","USB","ASRock Deskmini Addressable LED Strip","26CE","01A6","","","🤖","❌","✔️","ASRock Polychrome controllers will save with each update.
+Per ARGB LED support is not possible with these devices."
+"ASRock ASR RGB SMBus","Motherboard","SMBus","","","","","","🤖","❌","✔️","ASRock ASR RGB LED controllers will save with each update.
+Per ARGB LED support is not possible with these devices."
+"ASRock Polychrome v1 SMBus","Motherboard","SMBus","","","","","","🤖","❌","✔️","ASRock Polychrome v1 controllers will save with each update.
+Per ARGB LED support is not possible with these devices.
+ARGB size  and color order is set using the `ARGB Header Config mode`
+`Right` = GRB mode that is needed for WS2812B ARGB devices and `Left` = RGB used for WS2811 strips
+The modes speed slider will set the size of the header
+Spectrum Cycles uses the RGB values to set the individual color brightness."
+"ASRock Polychrome v2 SMBus","Motherboard","SMBus","","","","","","🤖","❌","✔️","ASRock Polychrome v2 controllers will save with each update.
+Per ARGB LED support is not possible with these devices."
+"Alienware","Keyboard","USB","Dell G Series LED Controller","187C","0550","","","❌","❌","✔️",""
+"Alienware AW510 Keyboard","Keyboard","USB","Alienware AW510K","04F2","1830","","","❌","✔️","✔️",""
+"Anne Pro 2","Keyboard","USB","Anne Pro 2","04D9","8008","","","❌","✔️","❌",""
+"Anne Pro 2","Keyboard","USB","Anne Pro 2","04D9","8009","","","❌","✔️","❌",""
+"Anne Pro 2","Keyboard","USB","Anne Pro 2","04D9","A292","","","❌","✔️","❌",""
+"Anne Pro 2","Keyboard","USB","Anne Pro 2","04D9","A293","","","❌","✔️","❌",""
+"Asus AURA Core","Keyboard
+LEDStrip","USB","ASUS Aura Core","0B05","1854","","","❌","🚨","✔️",""
+"Asus AURA Core","Keyboard
+LEDStrip","USB","ASUS Aura Core","0B05","1866","","","❌","🚨","✔️",""
+"Asus AURA Core","Keyboard
+LEDStrip","USB","ASUS Aura Core","0B05","1869","","","❌","🚨","✔️",""
+"AsusAuraCoreLaptop","DEVICE_TYPE_KEYBOARD","USB","ASUS ROG Strix SCAR 15","0B05","19B6","","","❌","✔️","✔️","Power profiles for this controller are set to `On` for all power
+state and scan be adjusted in the JSON config file.
+
+For each zone available LEDs can be set as `On = true` or `Off = false` when
+* Booting
+* Awake (Normal Usage)
+* Sleeping
+* Shutdown / Power Off"
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX 1050 O2G Gaming","10DE","1C81","1043","85D8","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX 1050 TI 4G Gaming","10DE","1C82","1043","8611","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX 1050 TI O4G Gaming","10DE","1C82","1043","85CD","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX 1050 TI O4G Gaming","10DE","1C82","1043","85D1","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS GTX 1060 Strix 6G Gaming","10DE","1C03","1043","85A4","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS GTX 1060 Strix","10DE","1C03","1043","85AC","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS GTX 1070 Strix Gaming","10DE","1B81","1043","8598","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS GTX 1070 Strix OC","10DE","1B81","1043","8599","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX1070 Ti 8G Gaming","10DE","1B82","1043","861D","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX1070 Ti A8G Gaming","10DE","1B82","1043","861E","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS GTX 1080 Strix OC","10DE","1B80","1043","8592","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX1080 A8G Gaming","10DE","1B80","1043","85AA","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX1080 O8G Gaming","10DE","1B80","1043","85F9","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX1080 O8G 11Gbps","10DE","1B80","1043","85E8","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX1080 Ti Gaming","10DE","1B06","1043","85EB","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX1080 Ti 11G Gaming","10DE","1B06","1043","85F1","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX1080 Ti O11G Gaming","10DE","1B06","1043","85EA","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX1080 Ti O11G Gaming","10DE","1B06","1043","85E4","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX 1650S OC 4G","10DE","2187","1043","874F","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG Strix GTX 1660S O6G Gaming","10DE","21C4","1043","8752","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG GTX 1660 Ti OC 6G","10DE","2182","1043","86A5","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2060 EVO Gaming 6G","10DE","1F08","1043","86D3","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2060 O6G Gaming","10DE","1F08","1043","868E","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2060 O6G Gaming","10DE","1F08","1043","86D2","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2060 O6G EVO Gaming","10DE","1E89","1043","8775","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2060S 8G Gaming","10DE","1F06","1043","8730","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2060S A8G EVO Gaming","10DE","1F47","1043","8703","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2060S O8G Gaming","10DE","1F06","1043","86FB","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2060S A8G Gaming","10DE","1F06","1043","86FC","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2070 A8G Gaming","10DE","1F07","1043","8671","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2070 O8G Gaming","10DE","1F07","1043","8670","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2070S A8G Gaming","10DE","1EC7","1043","86FF","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2070S A8G Gaming","10DE","1E84","1043","8728","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2070S A8G Gaming","10DE","1E84","1043","8706","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2070S O8G Gaming","10DE","1E84","1043","8729","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2070S 8G Gaming","10DE","1E84","1043","8707","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2070S O8G Gaming","10DE","1E84","1043","8727","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080 8G Gaming","10DE","1E82","1043","867F","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080 O8G Gaming","10DE","1E87","1043","865F","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080 O8G V2 Gaming","10DE","1E87","1043","8661","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080S A8G Gaming","10DE","1E81","1043","8712","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080S O8G Gaming","10DE","1E81","1043","8711","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080S O8G White","10DE","1E81","1043","876B","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080 Ti 11G Gaming","10DE","1E04","1043","8687","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080 Ti 11G Gaming","10DE","1E07","1043","866C","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080 Ti A11G Gaming","10DE","1E07","1043","866B","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RTX 2080 Ti O11G Gaming","10DE","1E07","1043","866A","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS TUF RTX 3060 Ti 8G Gaming OC","10DE","2489","1043","87C6","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS AREZ Strix RX Vega 56 O8G","1002","687F","1043","0555","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS Vega 64 Strix","1002","687F","1043","04C4","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS RX 5600XT Strix O6G Gaming","1002","731F","1043","04EC","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS RX 5700XT Strix Gaming OC","1002","731F","1043","04E2","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS RX 5700XT Strix 08G Gaming","1002","731F","1043","05C1","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS RX 6800 TUF Gaming OC","1002","73BF","1043","04F6","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RX470 O4G Gaming","1002","67DF","1043","04B0","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RX480 Gaming OC","1002","67DF","1043","04FB","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS ROG STRIX RX560 Gaming","1002","67FF","1043","04BC","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS RX 570 Strix O4G Gaming OC","1002","67DF","1043","04C2","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS RX 580 Strix Gaming OC","1002","67DF","1043","0517","❌","✔️","✔️",""
+"Asus Aura GPU","GPU","SMBus","ASUS RX 580 Strix Gaming TOP","1002","67DF","1043","0519","❌","✔️","✔️",""
+"Asus Aura Headset Stand","HeadsetStand","USB","ASUS ROG Throne","0B05","18D9","","","✔️","✔️","✔️",""
+"Asus Aura Headset Stand","HeadsetStand","USB","ASUS ROG Throne QI","0B05","18C5","","","✔️","✔️","✔️",""
+"Asus Aura Headset Stand","HeadsetStand","USB","ASUS ROG Throne QI GUNDAM","0B05","1994","","","✔️","✔️","✔️",""
+"Asus Aura Keyboard","Keyboard","USB","ASUS ROG Strix Flare","0B05","1875","","","❌","✔️","❌",""
+"Asus Aura Keyboard","Keyboard","USB","ASUS ROG Strix Flare PNK LTD","0B05","18CF","","","❌","✔️","❌",""
+"Asus Aura Keyboard","Keyboard","USB","ASUS ROG Strix Scope","0B05","18F8","","","❌","✔️","❌",""
+"Asus Aura Keyboard","Keyboard","USB","ASUS ROG Strix Scope RX","0B05","1951","","","❌","✔️","❌",""
+"Asus Aura Keyboard","Keyboard","USB","ASUS ROG Strix Scope TKL","0B05","190C","","","❌","✔️","❌",""
+"Asus Aura Keyboard","Keyboard","USB","ASUS ROG Strix Scope TKL PNK LTD","0B05","1954","","","❌","✔️","❌",""
+"Asus Aura Monitor","LEDStrip","USB","ASUS ROG Strix XG27AQ","0B05","198C","","","❌","✔️","❌",""
+"Asus Aura Monitor","LEDStrip","USB","ASUS ROG Strix XG27AQM","0B05","19BB","","","❌","✔️","❌",""
+"Asus Aura Monitor","LEDStrip","USB","ASUS ROG Strix XG27W","0B05","1933","","","❌","✔️","❌",""
+"Asus Aura Monitor","LEDStrip","USB","ASUS ROG PG32UQ","0B05","19B9","","","❌","✔️","❌",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius II Core","0B05","18DD","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius II","0B05","1845","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius II Origin","0B05","1877","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius II Origin PNK LTD","0B05","18CD","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius II Origin COD","0B05","18B1","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius II Wireless","0B05","189E","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius II Wireless","0B05","18A0","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius III","0B05","197B","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius III Wireless USB","0B05","197D","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius III Wireless 2.4Ghz","0B05","197F","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Gladius III Wireless Bluetooth","0B05","1981","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Chakram (Wireless)","0B05","18E5","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","Asus ROG Chakram (Wired)","0B05","18E3","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","Asus ROG Chakram Core","0B05","1958","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Pugio","0B05","1846","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Pugio II (Wired)","0B05","1906","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Pugio II (Wireless)","0B05","1908","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Strix Impact","0B05","1847","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Strix Impact II","0B05","18E1","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Strix Impact II Gundam","0B05","189E","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Strix Impact II Electro Punk","0B05","1956","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Strix Impact II Moonlight White","0B05","19D2","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Strix Impact II Wireless USB","0B05","1947","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Strix Impact II Wireless 2.4 Ghz","0B05","1949","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Keris","0B05","195C","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Keris Wireless USB","0B05","195E","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Keris Wireless 2.4Ghz","0B05","1960","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS ROG Keris Wireless Bluetooth","0B05","1962","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS TUF Gaming M3","0B05","1910","","","✔️","✔️","✔️",""
+"Asus Aura Mouse","Mouse","USB","ASUS TUF Gaming M5","0B05","1898","","","✔️","✔️","✔️",""
+"Asus Aura Mousemat","Mousemat","USB","ASUS ROG Balteus","0B05","1891","","","✔️","✔️","✔️",""
+"Asus Aura Mousemat","Mousemat","USB","ASUS ROG Balteus Qi","0B05","1890","","","✔️","✔️","✔️",""
+"Asus Aura Ryuo AIO ","Cooler","USB","ASUS ROG Balteus","0B05","1891","","","✔️","✔️","✔️",""
+"Asus Aura Ryuo AIO ","Cooler","USB","ASUS ROG Balteus Qi","0B05","1890","","","✔️","✔️","✔️",""
+"Asus Aura Strix Evolve","Mouse","USB","ASUS ROG Strix Evolve","0B05","185B","","","✔️","✔️","✔️",""
+"Asus Aura TUF Keyboard","Keyboard","USB","ASUS ROG Claymore","0B05","184D","","","✔️","✔️","✔️",""
+"Asus Aura TUF Keyboard","Keyboard","USB","ASUS ROG Falchion (Wired)","0B05","193C","","","✔️","✔️","✔️",""
+"Asus Aura TUF Keyboard","Keyboard","USB","ASUS ROG Falchion (Wireless)","0B05","193E","","","✔️","✔️","✔️",""
+"Asus Aura TUF Keyboard","Keyboard","USB","ASUS TUF Gaming K7","0B05","18AA","","","✔️","✔️","✔️",""
+"Asus Aura TUF Keyboard","Keyboard","USB","ASUS TUF Gaming K3","0B05","194B","","","✔️","✔️","✔️",""
+"Asus Aura USB","Motherboard","USB","ASUS ROG AURA Terminal","0B05","1889","","","❌","✔️","✔️","The Asus Aura USB controller applies to most AMD and
+Intel mainboards from the x470 and z390 chipsets onwards."
+"Asus Aura USB","Motherboard","USB","ASUS Aura Addressable","0B05","1867","","","❌","✔️","✔️","The Asus Aura USB controller applies to most AMD and
+Intel mainboards from the x470 and z390 chipsets onwards."
+"Asus Aura USB","Motherboard","USB","ASUS Aura Addressable","0B05","1872","","","❌","✔️","✔️","The Asus Aura USB controller applies to most AMD and
+Intel mainboards from the x470 and z390 chipsets onwards."
+"Asus Aura USB","Motherboard","USB","ASUS Aura Addressable","0B05","18A3","","","❌","✔️","✔️","The Asus Aura USB controller applies to most AMD and
+Intel mainboards from the x470 and z390 chipsets onwards."
+"Asus Aura USB","Motherboard","USB","ASUS Aura Addressable","0B05","18A5","","","❌","✔️","✔️","The Asus Aura USB controller applies to most AMD and
+Intel mainboards from the x470 and z390 chipsets onwards."
+"Asus Aura USB","Motherboard","USB","ASUS Aura Motherboard","0B05","18F3","","","❌","✔️","✔️","The Asus Aura USB controller applies to most AMD and
+Intel mainboards from the x470 and z390 chipsets onwards."
+"Asus Aura USB","Motherboard","USB","ASUS Aura Motherboard","0B05","1939","","","❌","✔️","✔️","The Asus Aura USB controller applies to most AMD and
+Intel mainboards from the x470 and z390 chipsets onwards."
+"Asus Aura USB","Motherboard","USB","ASUS Aura Motherboard","0B05","19AF","","","❌","✔️","✔️","The Asus Aura USB controller applies to most AMD and
+Intel mainboards from the x470 and z390 chipsets onwards."
+"Asus ROG Strix Liquid Cooler","Cooler","USB","ASUS ROG Strix LC","0B05","879E","","","❌","✔️","✔️",""
+"Asus Cerberus Mech Keyboard","Keyboard","USB","ASUS Cerberus Mech","195D","2047","","","🤖","❌","✔️",""
+"Asus Strix Claw","Mouse","USB","ASUS ROG Strix Claw","195D","1016","","","🤖","❌","⚒️",""
+"Colorful GPU","GPU","I2C","iGame GeForce RTX 3060 Ultra W OC 12G L-V","10DE","2504","7377","150A","❌","✔️","❌","This card only supports direct mode"
+"Colorful GPU","GPU","I2C","iGame GeForce RTX 3070 Advanced OC-V","10DE","2484","7377","140A","❌","✔️","❌","This card only supports direct mode"
+"Colorful GPU","GPU","I2C","iGame GeForce RTX 3070 Advanced OC-V","10DE","2484","7377","1401","❌","✔️","❌","This card only supports direct mode"
+"Colorful GPU","GPU","I2C","iGame GeForce RTX 3070 Ultra W OC LHR","10DE","2488","7377","150A","❌","✔️","❌","This card only supports direct mode"
+"Colorful GPU","GPU","I2C","iGame GeForce RTX 3070 Ti Advanced OC-V","10DE","2482","7377","1400","❌","✔️","❌","This card only supports direct mode"
+"Coolermaster ARGB","LEDStrip","USB","Cooler Master ARGB","2516","1011","","","🤖","✔️","✔️","The Coolermaster ARGB device supports `Direct` mode from
+firmware 0028 onwards. Check the serial number for the date
+\"A202105291658\" or newer."
+"Coolermaster ARGB","LEDStrip","USB","Cooler Master ARGB Gen 2 A1","2516","0173","","","🤖","✔️","✔️","The Coolermaster ARGB device supports `Direct` mode from
+firmware 0028 onwards. Check the serial number for the date
+\"A202105291658\" or newer."
+"Coolermaster ARGB","LEDStrip","USB","Cooler Master ARGB Gen 2 A1 V2","2516","01C9","","","🤖","✔️","✔️","The Coolermaster ARGB device supports `Direct` mode from
+firmware 0028 onwards. Check the serial number for the date
+\"A202105291658\" or newer."
+"Coolermaster ARGB A1","LEDStrip","USB","Cooler Master ARGB Gen 2 A1","2516","0173","","","✔️","✔️","✔️","This device does not have Gen 2 support in OpenRGB yet.
+
+Gen2 has auto-resize feature and parallel to serial magical stuff.<"
+"Coolermaster ARGB A1","LEDStrip","USB","Cooler Master ARGB Gen 2 A1 V2","2516","01C9","","","✔️","✔️","✔️","This device does not have Gen 2 support in OpenRGB yet.
+
+Gen2 has auto-resize feature and parallel to serial magical stuff.<"
+"Coolermaster Masterkeys Keyboards","Keyboard","USB","Cooler Master MasterKeys Pro L","2516","003B","","","🤖","✔️","✔️",""
+"Coolermaster Masterkeys Keyboards","Keyboard","USB","Cooler Master MasterKeys Pro L White","2516","0047","","","🤖","✔️","✔️",""
+"Coolermaster Masterkeys Keyboards","Keyboard","USB","Cooler Master MasterKeys Pro S","2516","003C","","","🤖","✔️","✔️",""
+"Coolermaster Masterkeys Keyboards","Keyboard","USB","Cooler Master MK750","2516","0067","","","🤖","✔️","✔️",""
+"Coolermaster Masterkeys Keyboards","Keyboard","USB","Cooler Master SK630","2516","0089","","","🤖","✔️","✔️",""
+"Coolermaster Masterkeys Keyboards","Keyboard","USB","Cooler Master SK650","2516","008D","","","🤖","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MM530","2516","0065","","","🤖","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MM711","2516","0101","","","🤖","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MM720","2516","0141","","","🤖","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MM730","2516","0165","","","🤖","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MP750 XL","2516","0109","","","🤖","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MP750 Large","2516","0107","","","🤖","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MP750 Medium","2516","0105","","","🤖","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MM530","2516","0065","","","✔️","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MM711","2516","0101","","","✔️","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MM720","2516","0141","","","✔️","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MM730","2516","0165","","","✔️","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MP750 XL","2516","0109","","","✔️","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MP750 Large","2516","0107","","","✔️","✔️","✔️",""
+"Coolermaster Master Mouse","Mouse","USB","Cooler Master MP750 Medium","2516","0105","","","✔️","✔️","✔️",""
+"Coolermaster Mouse Pad","Mousemat","USB","Cooler Master MP750 XL","2516","0109","","","🤖","❌","✔️",""
+"Coolermaster Mouse Pad","Mousemat","USB","Cooler Master MP750 Large","2516","0107","","","🤖","❌","✔️",""
+"Coolermaster Mouse Pad","Mousemat","USB","Cooler Master MP750 Medium","2516","0105","","","🤖","❌","✔️",""
+"AMD Radeon 6000","GPU","USB","Cooler Master Radeon 6000 GPU","2516","014D","","","❌","✔️","✔️","Similar to the Wraith Spire before it the AMD branded Radeon
+GPUs have an RGB controller provided by Coolermaster."
+"AMD Radeon 6000","GPU","USB","Cooler Master Radeon 6900 GPU","2516","015B","","","❌","✔️","✔️","Similar to the Wraith Spire before it the AMD branded Radeon
+GPUs have an RGB controller provided by Coolermaster."
+"Coolermaster RGB","LEDStrip","USB","Cooler Master RGB","2516","004F","","","🤖","❌","✔️","This is a 12V analogue RGB controller only."
+"Coolermaster Small ARGB","LEDStrip","USB","Cooler Master Small ARGB","2516","1000","","","🤖","✔️","✔️","The Coolermaster Small ARGB device supports `Direct` mode
+from firmware 0012 onwards. Check the serial number for the date
+\"A202104052336\" or newer."
+"Corsair Commander Core","Cooler","USB","Corsair Commander Core","1B1C","0C1C","","","❌","✔️","❌",""
+"Corsair Dominator Platinum","RAM","SMBus","","","","","","❌","✔️","❌",""
+"Corsair Hydro","Cooler","USB","","","","","","❌","✔️","✔️",""
+"Corsair Hydro Platinum","Cooler","USB","Corsair Hydro H100i Platinum","1B1C","0C18","","","❌","✔️","❌",""
+"Corsair Hydro Platinum","Cooler","USB","Corsair Hydro H100i Platinum SE","1B1C","0C19","","","❌","✔️","❌",""
+"Corsair Hydro Platinum","Cooler","USB","Corsair Hydro H115i Platinum","1B1C","0C17","","","❌","✔️","❌",""
+"Corsair Hydro Platinum","Cooler","USB","Corsair Hydro H60i Pro XT","1B1C","0C29","","","❌","✔️","❌",""
+"Corsair Hydro Platinum","Cooler","USB","Corsair Hydro H100i Pro XT","1B1C","0C20","","","❌","✔️","❌",""
+"Corsair Hydro Platinum","Cooler","USB","Corsair Hydro H100i Pro XT v2","1B1C","0C2D","","","❌","✔️","❌",""
+"Corsair Hydro Platinum","Cooler","USB","Corsair Hydro H115i Pro XT","1B1C","0C21","","","❌","✔️","❌",""
+"Corsair Hydro Platinum","Cooler","USB","Corsair Hydro H150i Pro XT","1B1C","0C22","","","❌","✔️","❌",""
+"Corsair Lighting Node","LEDStrip","USB","Corsair Lighting Node Core","1B1C","0C1A","","","🤖","✔️","✔️",""
+"Corsair Lighting Node","LEDStrip","USB","Corsair Lighting Node Pro","1B1C","0C0B","","","🤖","✔️","✔️",""
+"Corsair Lighting Node","LEDStrip","USB","Corsair Commander Pro","1B1C","0C10","","","🤖","✔️","✔️",""
+"Corsair Lighting Node","LEDStrip","USB","Corsair LS100 Lighting Kit","1B1C","0C1E","","","🤖","✔️","✔️",""
+"Corsair Lighting Node","LEDStrip","USB","Corsair 1000D Obsidian","1B1C","1D00","","","🤖","✔️","✔️",""
+"Corsair Lighting Node","LEDStrip","USB","Corsair SPEC OMEGA RGB","1B1C","1D04","","","🤖","✔️","✔️",""
+"Corsair Lighting Node","LEDStrip","USB","Corsair LT100","1B1C","0C23","","","🤖","✔️","✔️",""
+"Corsair K100 Keyboard","Keyboard","USB","Corsair K100","1B1C","1B7C","","","❌","✔️","❌",""
+"Corsair K100 Keyboard","Keyboard","USB","Corsair K100","1B1C","1B7D","","","❌","✔️","❌",""
+"Corsair K55 RGB Pro XT","Keyboard","USB","Corsair K55 RGB PRO XT","1B1C","1BA1","","","❌","✔️","✔️",""
+"Corsair K65 Mini","Keyboard","USB","Corsair K65 Mini","1B1C","1BAF","","","❌","✔️","❌",""
+"Corsair K95 Platinum XT Keyboard","Keyboard","USB","Corsair K95 RGB PLATINUM XT","1B1C","1B89","","","❌","✔️","❌",""
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K55 RGB","1B1C","1B3D","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K65 RGB","1B1C","1B17","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K65 LUX RGB","1B1C","1B37","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K65 RGB RAPIDFIRE","1B1C","1B39","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K68 RGB","1B1C","1B4F","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K70 RGB","1B1C","1B13","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K70 LUX","1B1C","1B36","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K70 LUX RGB","1B1C","1B33","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K70 RGB RAPIDFIRE","1B1C","1B38","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K70 RGB MK.2","1B1C","1B49","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K70 RGB MK.2 SE","1B1C","1B6B","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K70 RGB MK.2 Low Profile","1B1C","1B55","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K95 RGB","1B1C","1B11","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair K95 RGB PLATINUM","1B1C","1B2D","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Strafe","1B1C","1B20","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Strafe Red","1B1C","1B44","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Strafe MK.2","1B1C","1B48","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Glaive RGB","1B1C","1B34","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Glaive RGB PRO","1B1C","1B74","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Harpoon RGB","1B1C","1B3C","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Harpoon RGB PRO","1B1C","1B75","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Ironclaw RGB","1B1C","1B5D","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair M65","1B1C","1B12","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair M65 PRO","1B1C","1B2E","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair M65 RGB Elite","1B1C","1B5A","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Nightsword","1B1C","1B5C","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Scimitar RGB","1B1C","1B1E","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Scimitar PRO RGB","1B1C","1B3E","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Scimitar Elite RGB","1B1C","1B8B","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair Sabre RGB","1B1C","1B2F","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair MM800 RGB Polaris","1B1C","1B3B","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair Peripheral","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","Corsair ST100 RGB","1B1C","0A34","","","❌","✔️","⚒️","
+All controllers support `Direct` mode
+Currently HW modes are implemented for the following devices:
+* Corsair K70 RGB MK.2
+* Corsair K70 RGB MK.2 Low Profile"
+"Corsair K55 RGB Pro","Keyboard","USB","Corsair K55 RGB PRO","1B1C","1BA4","","","❌","✔️","❌",""
+"Corsair K55 RGB Pro","Keyboard","USB","Corsair K60 RGB PRO","1B1C","1BA0","","","❌","✔️","❌",""
+"Corsair K55 RGB Pro","Keyboard","USB","Corsair K60 RGB PRO Low Profile","1B1C","1BAD","","","❌","✔️","❌",""
+"Corsair K55 RGB Pro","Keyboard","USB","Corsair MM700","1B1C","1B9B","","","❌","✔️","❌",""
+"Corsair Vengeance","RAM","SMBus","","","","","","🤖","❌","✔️",""
+"Corsair Vengeance Pro","RAM","SMBus","","","","","","🤖","✔️","✔️",""
+"Corsair Wireless Peripheral","Keyboard","USB","Corsair K57 RGB (Wired)","1B1C","1B6E","","","❌","✔️","❌",""
+"Cougar 700K Evo Keyboard","Keyboard","USB","Cougar 700K EVO Gaming Keyboard","060B","7010","","","✔️","✔️","✔️","The Cougar 700K Evo controller implements all hardware modes
+found in the OEM software but has not been able to include all
+options for some modes. eg. Rainbow colour mode. Music mode was
+deteremined to be a software driven effect which can be added with
+the (OpenRGB Effects Engine plugin)[https://gitlab.com/OpenRGBDevelopers/OpenRGBEffectsPlugin]."
+"Cougar Revenger ST","Mouse","USB","Cougar Revenger ST","12CF","0412","","","❌","✔️","✔️",""
+"Creative Sound BlasterX G6","Headset","USB","Creative SoundBlasterX G6","041E","3256","","","❌","✔️","❌",""
+"Crucial RAM","RAM","SMBus","","","","","","❌","✔️","✔️",""
+"Dark Project Keyboard","Keyboard","USB","Dark Project KD3B V2","195D","2061","","","❌","✔️","❌","The Dark Project keyboard controller currently supports
+the full size KD3B Version 2 (ANSI layout)."
+"Das Keyboard","Keyboard","USB","Das Keyboard Q5 RGB","24F0","2020","","","❌","✔️","✔️",""
+"Das Keyboard","Keyboard","USB","Das Keyboard Q4 RGB","24F0","2037","","","❌","✔️","✔️",""
+"Debug","Unknown","I2C","","","","","","❌","❌","❌",""
+"Ducky Keyboard","Keyboard","USB","Ducky Shine 7/Ducky One 2 RGB","04D9","0348","","","❌","✔️","❌",""
+"Ducky Keyboard","Keyboard","USB","Ducky One 2 RGB TKL","04D9","0356","","","❌","✔️","❌",""
+"EK Loop Connect","LEDStrip","USB","EK Loop Connect","0483","5750","","","🤖","❌","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","","","","","","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","","","","","","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS KO RTX 3060 OC O12G GAMING","10DE","2503","1043","87FB","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF 3060 O12G GAMING","10DE","2503","1043","87F5","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF 3060 O12G V2 GAMING","10DE","2487","1043","8865","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF 3060 O12G V2 GAMING","10DE","2504","1043","8816","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3060 12G GAMING","10DE","2503","1043","87F4","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3060 O12G GAMING","10DE","2503","1043","87F3","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3060 O12G V2 GAMING","10DE","2504","1043","8818","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS KO RTX 3060 O12G V2 GAMING","10DE","2504","1043","8821","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS KO RTX 3060Ti O8G V2 GAMING","10DE","2489","1043","883E","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3060Ti O8G OC","10DE","2486","1043","87C6","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3060Ti O8G OC","10DE","2486","1043","87BA","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3060Ti O8G OC","10DE","2489","1043","8827","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3060Ti O8G V2","10DE","2489","1043","8834","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3070 OC","10DE","2484","1043","87B8","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3070 O8G GAMING","10DE","2484","1043","87B9","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3070 O8G White","10DE","2484","1043","87E0","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3070 O8G V2 GAMING","10DE","2488","1043","882C","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3070 O8G V2 White","10DE","2488","1043","8832","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3070 O8G GAMING","10DE","2484","1043","87C1","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS KO RTX 3070 O8G V2 GAMING","10DE","2488","1043","8842","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3070 O8G V2 GAMING","10DE","2488","1043","8825","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3070Ti O8G GAMING","10DE","2482","1043","880E","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3070Ti O8G V2 GAMING","10DE","2482","1043","8812","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3070Ti O8G GAMING","10DE","2482","1043","8813","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3080 10G GAMING","10DE","2206","1043","87C4","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3080 10G GAMING","10DE","2206","1043","87B2","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3080 O10G OC","10DE","2206","1043","87B0","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3080 10G GAMING","10DE","2206","1043","87AA","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3080 O10G GAMING","10DE","2206","1043","87AC","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3080 O10G WHITE","10DE","2206","1043","87D1","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3080 10G V2 GAMING","10DE","2216","1043","882F","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3080 O10G V2 GAMING","10DE","2216","1043","882E","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3080 O10G V2 WHITE","10DE","2216","1043","8830","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3080 O10G V2 GAMING","10DE","2216","1043","8822","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3080 O10G V2 GAMING","10DE","2216","1043","8823","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3080 O12G GAMING","10DE","220A","1043","886E","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX RTX 3080 12G","10DE","220A","1043","886C","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX RTX 3080 O12G","10DE","220A","1043","886B","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3080Ti 12G GAMING","10DE","2208","1043","8803","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3080Ti O12G GAMING","10DE","2208","1043","8802","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3080Ti O12G GAMING","10DE","2208","1043","8807","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX LC 3080Ti O12G GAMING","10DE","2208","1043","8809","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3090 24G GAMING","10DE","2204","1043","87AD","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3090 O24G GAMING","10DE","2204","1043","87AF","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX 3090 O24G GAMING White OC","10DE","2204","1043","87D9","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3090 O24G","10DE","2204","1043","87B5","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 3090 O24G OC","10DE","2204","1043","87B3","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RX 6700XT O12G GAMING","1002","73DF","1043","05C9","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS ROG STRIX RX 6700XT O12G GAMING","1002","73DF","1043","05C7","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RX 6800XT O16G GAMING","1002","73BF","1043","04F2","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RX 6900XT O16G GAMING","1002","73BF","1043","04FA","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RX 6900XT T16G GAMING","1002","73AF","1043","04FE","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 4090 O24G OC","10DE","2684","1043","889A","✔️","✔️","✔️",""
+"ENE SMBus Device","RAM
+Motherboard
+GPU
+Storage","SMBus","ASUS TUF RTX 4090 O24G","10DE","2684","1043","889B","✔️","✔️","✔️",""
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3060TI FTW3 Gaming","10DE","2486","3842","3665","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3060TI FTW3 Ultra","10DE","2486","3842","3667","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3060TI FTW3 Ultra LHR","10DE","2489","3842","4667","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070 Black Gaming","10DE","2484","3842","3751","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070 XC3 Gaming","10DE","2484","3842","3753","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070 XC3 Ultra","10DE","2484","3842","3755","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070 XC3 Ultra LHR","10DE","2488","3842","4755","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070 FTW3 Ultra","10DE","2484","3842","3767","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070 FTW3 Ultra LHR","10DE","2488","3842","4767","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070Ti XC3 Gaming","10DE","2482","3842","3783","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070Ti XC3 Ultra","10DE","2482","3842","3785","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070Ti XC3 Ultra v2","10DE","2482","3842","3485","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070Ti FTW3 Ultra","10DE","2482","3842","3797","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3070Ti FTW3 Ultra v2","10DE","2482","3842","3497","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Black","10DE","2206","3842","3881","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Black LHR","10DE","2216","3842","4881","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Gaming","10DE","2206","3842","3883","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Gaming LHR","10DE","2216","3842","4883","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Ultra","10DE","2206","3842","3885","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Ultra LHR","10DE","2216","3842","4885","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Ultra Hybrid","10DE","2206","3842","3888","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Ultra Hybrid LHR","10DE","2216","3842","4888","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Ultra Hydro Copper","10DE","2206","3842","3889","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Gaming","10DE","2206","3842","3895","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Ultra","10DE","2206","3842","3897","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Ultra v2 LHR","10DE","2216","3842","4297","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Ultra LHR","10DE","2216","3842","4897","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Ultra Hybrid","10DE","2206","3842","3898","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Ultra Hybrid LHR","10DE","2216","3842","4898","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Ultra Hybrid Gaming LHR","10DE","220A","3842","4878","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Ultra Hydro Copper","10DE","2206","3842","3899","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 XC3 Ultra 12G","10DE","220A","3842","4865","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Ultra 12GB","10DE","220A","3842","4877","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080 FTW3 Ultra Hydro Copper 12G","10DE","220A","3842","4879","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080Ti XC3 Gaming","10DE","2208","3842","3953","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080Ti XC3 Ultra Gaming","10DE","2208","3842","3955","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080Ti XC3 Gaming Hybrid","10DE","2208","3842","3958","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080Ti XC3 Gaming Hydro Copper","10DE","2208","3842","3959","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080Ti FTW3 Ultra","10DE","2208","3842","3967","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080Ti FTW3 Ultra Hybrid","10DE","2208","3842","3968","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3080Ti FTW3 Ultra Hydro Copper","10DE","2208","3842","3969","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 XC3 Black","10DE","2204","3842","3971","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 XC3 Gaming","10DE","2204","3842","3973","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 XC3 Ultra","10DE","2204","3842","3975","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 XC3 Ultra Hybrid","10DE","2204","3842","3978","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 XC3 Ultra Hydro Copper","10DE","2204","3842","3979","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 FTW3 Ultra","10DE","2204","3842","3987","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 FTW3 Ultra v2","10DE","2204","3842","3982","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 FTW3 Ultra v3","10DE","2204","3842","3387","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 FTW3 Ultra Hybrid","10DE","2204","3842","3988","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 FTW3 Ultra Hydro Copper","10DE","2204","3842","3989","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 K\|NGP\|N Hybrid","10DE","2204","3842","3998","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090 K\|NGP\|N Hydro Copper","10DE","2204","3842","3999","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090Ti FTW3 Gaming","10DE","2203","3842","4983","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA RGB v3 GPU","GPU","I2C","EVGA GeForce RTX 3090Ti FTW3 Ultra Gaming","10DE","2203","3842","4985","✔️","✔️","✔️","EVGA has not exposed a per LED control method yet so OpenRGB
+is only able to set all LED's to a single color."
+"EVGA GP102 GPU","GPU","I2C","","","","","","❌","✔️","❌",""
+"EVGA RGB v1 GPU","GPU","I2C","","","","","","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2070 XC Black","10DE","1F02","3842","2071","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2070 XC Gaming","10DE","1F07","3842","2172","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2070 XC OC","10DE","1F07","3842","2173","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2070 SUPER XC Ultra","10DE","1E84","3842","3173","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2070 SUPER XC Ultra+","10DE","1E84","3842","3175","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2070 SUPER FTW3 Ultra","10DE","1E84","3842","3277","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2070 SUPER FTW3 Ultra+","10DE","1E84","3842","3377","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080 Black","10DE","1E82","3842","2081","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080 XC Black","10DE","1E87","3842","2082","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080 XC Gaming","10DE","1E87","3842","2182","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080 XC Ultra Gaming","10DE","1E87","3842","2183","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080 SUPER XC Gaming","10DE","1E81","3842","3182","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080 SUPER XC Ultra","10DE","1E81","3842","3183","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080 SUPER FTW3 Ultra","10DE","1E81","3842","3287","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080 SUPER FTW3 Hybrid OC","10DE","1E81","3842","3288","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080 SUPER FTW3 Ultra Hydro Copper","10DE","1E81","3842","3289","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080Ti Black","10DE","1E04","3842","2281","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080Ti XC Ultra","10DE","1E07","3842","2383","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080Ti XC HYBRID GAMING","10DE","1E07","3842","2384","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080Ti XC HYDRO COPPER","10DE","1E04","3842","2389","✔️","✔️","✔️",""
+"EVGA RGB v2 GPU","GPU","I2C","EVGA GeForce RTX 2080Ti FTW3 Ultra","10DE","1E07","3842","2487","✔️","✔️","✔️",""
+"EVGA USB Keyboard","Keyboard","USB","EVGA Z15 Keyboard","3842","260E","","","❌","✔️","✔️","The EVGA USB keyboard controller currently supports
+the Z15 (both ISO & ANSI) as well as the Z20 ANSI keyboards"
+"EVGA USB Keyboard","Keyboard","USB","EVGA Z15 Keyboard","3842","2608","","","❌","✔️","✔️","The EVGA USB keyboard controller currently supports
+the Z15 (both ISO & ANSI) as well as the Z20 ANSI keyboards"
+"EVGA USB Keyboard","Keyboard","USB","EVGA Z20 Keyboard","3842","260A","","","❌","✔️","✔️","The EVGA USB keyboard controller currently supports
+the Z15 (both ISO & ANSI) as well as the Z20 ANSI keyboards"
+"EVision Keyboard","Keyboard","USB","EVision Keyboard 0C45:5204","0C45","5204","","","🤖","❌","✔️",""
+"EVision Keyboard","Keyboard","USB","EVision Keyboard 0C45:5104","0C45","5104","","","🤖","❌","✔️",""
+"EVision Keyboard","Keyboard","USB","EVision Keyboard 0C45:5004","0C45","5004","","","🤖","❌","✔️",""
+"EVision Keyboard","Keyboard","USB","EVision Keyboard 0C45:652F","0C45","652F","","","🤖","❌","✔️",""
+"EVision Keyboard","Keyboard","USB","EVision Keyboard 0C45:8520","0C45","8520","","","🤖","❌","✔️",""
+"EVision Keyboard","Keyboard","USB","EVision Keyboard 320F:502A","320F","502A","","","🤖","❌","✔️",""
+"EVision Keyboard","Keyboard","USB","EVision Keyboard 0C45:7698","0C45","7698","","","🤖","❌","✔️",""
+"GaiZhongGai Keyboard","Keyboard","USB","GaiZhongGai 68+4 PRO","3061","4700","","","❌","✔️","❌",""
+"GaiZhongGai Keyboard","Keyboard","USB","GaiZhongGai 17+4+Touch PRO","3061","4770","","","❌","✔️","❌",""
+"GaiZhongGai Keyboard","Keyboard","USB","GaiZhongGai 17 PRO","3061","4771","","","❌","✔️","❌",""
+"GaiZhongGai Keyboard","Keyboard","USB","GaiZhongGai 20 PRO","3061","4772","","","❌","✔️","❌",""
+"Gainward GPU v1","GPU","I2C","Gainward GTX 1080 Phoenix","10DE","1B80","10B0","1B80","❌","✔️","❌",""
+"Gainward GPU v1","GPU","I2C","Gainward GTX 1080 Ti Phoenix","10DE","1B06","10B0","1B06","❌","✔️","❌",""
+"Gainward GPU v1","GPU","I2C","Gainward RTX 2070 Super Phantom","10DE","1E84","10B0","1E84","❌","✔️","❌",""
+"Gainward GPU v1","GPU","I2C","Gainward RTX 2080 Phoenix GS","10DE","1E82","10B0","1E87","❌","✔️","❌",""
+"Gainward GPU v1","GPU","I2C","Gainward RTX 3070 Phoenix","10DE","2484","10B0","2484","❌","✔️","❌",""
+"Gainward GPU v1","GPU","I2C","Gainward RTX 3080 Ti Phoenix","10DE","2208","10B0","2208","❌","✔️","❌",""
+"Gainward GPU v2","GPU","I2C","Gainward GTX 1080 Phoenix","10DE","1B80","10B0","1B80","❌","❌","✔️",""
+"Gainward GPU v2","GPU","I2C","Gainward GTX 1080 Ti Phoenix","10DE","1B06","10B0","1B06","❌","❌","✔️",""
+"Gainward GPU v2","GPU","I2C","Gainward RTX 2070 Super Phantom","10DE","1E84","10B0","1E84","❌","❌","✔️",""
+"Gainward GPU v2","GPU","I2C","Gainward RTX 2080 Phoenix GS","10DE","1E82","10B0","1E87","❌","❌","✔️",""
+"Gainward GPU v2","GPU","I2C","Gainward RTX 3070 Phoenix","10DE","2484","10B0","2484","❌","❌","✔️",""
+"Gainward GPU v2","GPU","I2C","Gainward RTX 3080 Ti Phoenix","10DE","2208","10B0","2208","❌","❌","✔️",""
+"Galax GPU","GPU","I2C","KFA2 RTX 2070 EX","10DE","1F02","10DE","12FE","❌","✔️","✔️",""
+"Galax GPU","GPU","I2C","GALAX RTX 2070 Super EX Gamer Black","10DE","1E84","10DE","139F","❌","✔️","✔️",""
+"Galax GPU","GPU","I2C","KFA2 RTX 2080 EX OC","10DE","1E82","10DE","12B0","❌","✔️","✔️",""
+"Galax GPU","GPU","I2C","KFA2 RTX 2080 Super EX OC","10DE","1E81","10DE","13A1","❌","✔️","✔️",""
+"Galax GPU","GPU","I2C","KFA2 RTX 2080 TI EX OC","10DE","1E04","10DE","1323","❌","✔️","✔️",""
+"Aorus ATC800","Cooler","USB","Aorus CPU Coolers","1044","7A42","","","❌","❌","✔️",""
+"Gigabyte Fusion2 DRAM","RAM","I2C","","","","","","❌","❌","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2060 SUPER 8G V1","10DE","1F06","1458","3FF7","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2070 XTREME 8G","10DE","1F07","1458","37B4","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2070 SUPER 8G","10DE","1E84","1458","3FF6","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2070 SUPER 8G","10DE","1E84","1458","3FF5","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2080 8G","10DE","1E87","1458","37B2","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2080 XTREME 8G","10DE","1E87","1458","37B1","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2080 SUPER 8G","10DE","1E81","1458","3FF3","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2080 SUPER 8G Rev 1.0","10DE","1E81","1458","3FF4","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2080 SUPER Waterforce WB 8G","10DE","1E81","1458","4003","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX2080 Ti XTREME 11G","10DE","1E07","1458","37BC","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3060 ELITE 12G","10DE","2487","1458","407B","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3060 ELITE 12G LHR","10DE","2504","1458","407B","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3060 Ti ELITE 8G LHR","10DE","2489","1458","4076","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte RTX3060 Ti GAMING OC LHR 8G","10DE","2489","1458","405A","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte RTX3060 Ti GAMING OC PRO 8G","10DE","2486","1458","405E","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte RTX3060 Ti Gaming OC PRO 8G LHR","10DE","2489","1458","405E","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte RTX3070 MASTER 8G","10DE","2484","1458","4069","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte RTX3070 MASTER 8G LHR","10DE","2488","1458","4069","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3070 Ti MASTER 8G","10DE","2482","1458","408E","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3080 XTREME WATERFORCE WB 10G","10DE","2206","1458","4038","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3080 XTREME WATERFORCE WB 10G","10DE","2216","1458","4038","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3080 XTREME WATERFORCE 10G Rev 2.0","10DE","2216","1458","4037","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte RTX3080 Ti Vision OC 12G","10DE","2208","1458","4087","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3080 Ti XTREME WATERFORCE 12G","10DE","2208","1458","4083","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte RTX3090 VISION OC 24G ","10DE","2204","1458","4044","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3090 XTREME WATERFORCE 24G","10DE","2204","1458","4039","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX3090 XTREME WATERFORCE WB 24G","10DE","2204","1458","403A","✔️","✔️","✔️",""
+"Gigabyte Fusion 2 GPU","GPU","I2C","Gigabyte AORUS RTX4090 MASTER 24G","10DE","2684","1458","40C0","✔️","✔️","✔️",""
+"Gigabyte Fusion2 SMBus","Motherboard","I2C","","","","","","❌","✔️","✔️",""
+"Gigabyte RGB Fusion 2 USB","Motherboard","USB","Gigabyte RGB Fusion 2 USB","048D","8297","","","❌","✔️","✔️","The Fusion 2 USB controller applies to most AMD and
+Intel mainboards from the x570 and z390 chipsets onwards."
+"Gigabyte RGB Fusion 2 USB","Motherboard","USB","Gigabyte RGB Fusion 2 USB","048D","5702","","","❌","✔️","✔️","The Fusion 2 USB controller applies to most AMD and
+Intel mainboards from the x570 and z390 chipsets onwards."
+"Gigabyte Fusion SMBus","Motherboard","I2C","","","","","","❌","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1050 Ti G1 Gaming (rev A1)","10DE","1C82","1458","372A","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1050 Ti G1 Gaming","10DE","1C82","1458","372A","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1060 G1 Gaming 6G","10DE","1C03","1458","3716","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1060 G1 Gaming 6G OC","10DE","1C03","1458","3739","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1060 Xtreme Gaming V1","10DE","1C03","1458","3757","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1060 Xtreme Gaming v2","10DE","1C03","1458","3776","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1070 Xtreme Gaming","10DE","1B81","1458","3778","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1070 G1 Gaming 8G V1","10DE","1B81","1458","3772","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1070 Ti 8G Gaming","10DE","1B82","1458","3794","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1080 G1 Gaming","10DE","1B80","1458","3702","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1080 Ti 11G","10DE","1B06","1458","3752","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1080 Ti Gaming OC 11G","10DE","1B06","1458","374C","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1080 Ti Gaming OC BLACK 11G","10DE","1B06","1458","377A","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1080 Ti Xtreme Edition","10DE","1B06","1458","3751","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1080 Ti Xtreme Waterforce Edition","10DE","1B06","1458","3762","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1650 Gaming OC","10DE","1F82","1458","3FE4","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1660 Gaming OC 6G","10DE","2184","1458","3FC7","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte GTX1660 SUPER Gaming OC","10DE","21C4","1458","4014","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2060 Gaming OC","10DE","1F08","1458","37CE","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2060 Gaming OC PRO","10DE","1F08","1458","3FC2","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2060 Gaming OC PRO V2","10DE","1F08","1458","3FC9","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2060 Gaming OC PRO White","10DE","1F08","1458","3FD0","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2060 SUPER Gaming","10DE","1F06","1458","404A","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2060 SUPER Gaming OC","10DE","1F06","1458","3FED","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2060 SUPER Gaming OC 3X White 8G","10DE","1F06","1458","3FFE","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2060 SUPER Gaming OC 3X 8G V2","10DE","1F06","1458","4009","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2070 Gaming OC 8G","10DE","1F02","1458","37AD","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2070 Gaming OC 8GC","10DE","1F02","1458","37C8","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2070 Windforce 8G","10DE","1F02","1458","37C2","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2070S Gaming OC","10DE","1E84","1458","3FEB","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2070S Gaming OC 3X","10DE","1E84","1458","4008","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2070S Gaming OC 3X","10DE","1E84","1458","4008","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2070S Gaming OC 3X White","10DE","1E84","1458","400D","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2080 Gaming OC 8G","10DE","1E82","1458","37D6","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2080 Gaming OC 8G","10DE","1E87","1458","37A7","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2080 Ti GAMING OC 11G","10DE","1E07","1458","37A9","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX2080S Gaming OC 8G","10DE","1E81","1458","3FE9","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3050 Gaming OC 8G","10DE","2507","1458","40AA","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 EAGLE OC 12G","10DE","2503","1458","4072","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 EAGLE OC 12G V2","10DE","2504","1458","4072","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 EAGLE 12G LHR V2","10DE","2504","1458","4071","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Vision OC 12G","10DE","2503","1458","4073","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Vision OC 12G LHR","10DE","2504","1458","4073","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Vision OC 12G v3.0","10DE","2487","1458","4073","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Gaming OC 12G","10DE","2503","1458","4074","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Gaming OC 12G (rev. 2.0)","10DE","2487","1458","4074","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Gaming OC 12G","10DE","2504","1458","4074","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Ti EAGLE OC 8G","10DE","2486","1458","405B","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Ti EAGLE OC 8G V2.0 LHR","10DE","2489","1458","405B","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Ti EAGLE OC 8G V2.0 LHR","10DE","2489","1458","4060","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3060 Ti Vision OC 8G","10DE","2489","1458","4077","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3070 Gaming OC 8G","10DE","2484","1458","404C","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3070 Gaming OC 8G v3.0 LHR","10DE","2488","1458","404C","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3070 Vision 8G","10DE","2484","1458","404D","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3070 Vision 8G V2.0 LHR","10DE","2488","1458","404D","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3070 Eagle OC 8G","10DE","2484","1458","404E","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3070 Eagle OC 8G V2.0 LHR","10DE","2488","1458","404E","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3070 Ti Gaming OC 8G","10DE","2482","1458","408F","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3070 Ti EAGLE 8G","10DE","2482","1458","408C","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3070 Ti Vision OC 8G","10DE","2482","1458","4090","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3080 Gaming OC 10G","10DE","2206","1458","403F","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3080 Gaming OC 12G","10DE","220A","1458","40A2","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3080 Gaming OC 10G","10DE","2216","1458","403F","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3080 Vision OC 10G (REV 2.0)","10DE","2216","1458","404B","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3080 Vision OC 10G","10DE","2206","1458","404B","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3080 Ti Gaming OC 12G","10DE","2208","1458","4088","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3080 Ti EAGLE 12G","10DE","2208","1458","4085","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3080 Ti EAGLE OC 12G","10DE","2208","1458","4086","✔️","✔️","✔️",""
+"Gigabyte Fusion GPU","GPU","I2C","Gigabyte RTX3090 Gaming OC 24G","10DE","2204","1458","4043","✔️","✔️","✔️",""
+"HP Omen 30L","Motherboard","USB","HP Omen 30L","103C","84FD","","","❌","✔️","✔️",""
+"Holtek A070","Mouse","USB","Holtek USB Gaming Mouse","04D9","A070","","","❌","❌","✔️",""
+"Holtek A1FA","Mouse","USB","Holtek Mousemat","04D9","A1FA","","","❌","❌","✔️",""
+"HyperX DRAM","RAM","I2C","","","","","","❌","✔️","✔️",""
+"HyperX Alloy Elite","Keyboard","USB","HyperX Alloy Elite RGB","0951","16BE","","","❌","✔️","✔️",""
+"HyperX Alloy Elite","Keyboard","USB","HyperX Alloy Elite 2","0951","1711","","","❌","✔️","✔️",""
+"HyperX Alloy Elite","Keyboard","USB","HyperX Alloy Elite 2 (HP)","03F0","058F","","","❌","✔️","✔️",""
+"HyperX Alloy Elite 2","Keyboard","USB","HyperX Alloy Elite 2","0951","1711","","","❌","✔️","✔️",""
+"HyperX Alloy Elite 2","Keyboard","USB","HyperX Alloy Elite 2 (HP)","03F0","058F","","","❌","✔️","✔️",""
+"HyperX Alloy FPS","Keyboard","USB","HyperX Alloy FPS RGB","0951","16DC","","","❌","✔️","❌",""
+"HyperX Alloy Origins","Keyboard","USB","HyperX Alloy Origins Core","0951","16E6","","","❌","✔️","❌",""
+"HyperX Alloy Origins","Keyboard","USB","HyperX Alloy Origins Core","03F0","098F","","","❌","✔️","❌",""
+"HyperX Alloy Origins","Keyboard","USB","HyperX Alloy Origins 60","0951","1734","","","❌","✔️","❌",""
+"HyperX Alloy Origins","Keyboard","USB","HyperX Alloy Origins","0951","16E5","","","❌","✔️","❌",""
+"HyperX Alloy Origins","Keyboard","USB","HyperX Alloy Origins","03F0","0591","","","❌","✔️","❌",""
+"HyperX Alloy Origins 60","Keyboard","USB","HyperX Alloy Origins 60","0951","1734","","","❌","✔️","❌",""
+"HyperX Alloy Origins Core","Keyboard","USB","HyperX Alloy Origins Core","0951","16E6","","","❌","✔️","❌",""
+"HyperX Alloy Origins Core","Keyboard","USB","HyperX Alloy Origins Core","03F0","098F","","","❌","✔️","❌",""
+"HyperX Pulsefire Dart","Mouse","USB","HyperX Pulsefire Dart (Wireless)","0951","16E1","","","✔️","✔️","✔️",""
+"HyperX Pulsefire Dart","Mouse","USB","HyperX Pulsefire Dart (Wired)","0951","16E2","","","✔️","✔️","✔️",""
+"HyperX Pulsefire FPS","Mouse","USB","HyperX Pulsefire FPS Pro","0951","16D7","","","❌","✔️","❌",""
+"HyperX Pulsefire FPS","Mouse","USB","HyperX Pulsefire Core","0951","16DE","","","❌","✔️","❌",""
+"HyperX Pulsefire Haste","Mouse","USB","HyperX Pulsefire Haste","0951","1727","","","❌","✔️","❌",""
+"HyperX Pulsefire Raid","Mouse","USB","HyperX Pulsefire Raid","0951","16E4","","","❌","✔️","❌",""
+"HyperX Pulsefire Surge","Mouse","USB","HyperX Pulsefire Surge","0951","16D3","","","❌","✔️","❌",""
+"HyperX Mousemat","Mousemat","USB","HyperX Fury Ultra","0951","1705","","","❌","✔️","❌",""
+"HyperX Mousemat","Mousemat","USB","HyperX Pulsefire Mat","03F0","0F8D","","","❌","✔️","❌",""
+"Intel Arc A770 Limited Edition","GPU","USB","Intel Arc A770 Limited Edition","2516","01B5","","","🚫","✔️","⚒️",""
+"Keychron Keyboard","Keyboard","USB","Keychron Gaming Keyboard 1","05AC","024F","","","❌","❌","✔️",""
+"LIFX Globes","Light","USB","","","","","","❌","✔️","❌",""
+"Lenovo USB","Keyboard","USB","Lenovo Legion Y740","048D","C935","","","❌","✔️","❌","Tested on Lenovo Legion 7/7i gen. 6 ANSI and ISO models
+Hardware modes are not implented
+PLEASE UPDATE YOUR BIOS IF YOU HAVE ISSUES WITH HARDWARE MODES AFTER CLOSING OPENRGB
+
+If you have other models beside the Legion 7 gen 6 and want to test if RGB can be added to OpenRGB,
+you can do so if you're on Windows by running
+[this Powershell script](https://gitlab.com/pvazny/legion7-rgb-ps) with the `-test` parameter:
+
+```powershell
+legion7-rgb.ps1 -test -v 0x048D -p 0xC935 -up 0xFF89 -u 0x07 -c 0xa1 -start 0x15 -stop 0xa1
+```
+
+This script will iterate through each LED one by one, in bank `$c = 0xa1`, between IDs
+`-start 0x15` and `-stop 0xa1`, on the HID device with VID `-v 0x048D` PID `-p 0xC935` usage page
+`-up 0xFF89` and usage `-u 0x07`. It will default to the Legion 7 Gen 6 description, however you can
+enter a new description for each LED and at the end it will generate the differences.
+
+To check if you have an eligible HID device that could potentially be iterated by the script please
+open the powershell command prompt and executre the follow:
+
+```powershell
+Get-PnpDevice -Class 'HIDClass' | ForEach-Object { [PSCustomObject]@{Name = $_.FriendlyName; InstanceId = $_.InstanceId; HardwareId = ($_.HardwareId | Where-Object {$_ -like 'HID_DEVICE_UP:*' })}} | Where-Object { $_.HardwareId -ne $null } | Sort-Object InstanceId
+```
+
+If the script is successful please create a [new device issue](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/new?issuable_template=New%20Device#)
+and attach the relevant details to request support for your device."
+"Lenovo USB","Keyboard","USB","Lenovo Legion 7 gen 5","048D","C956","","","❌","✔️","❌","Tested on Lenovo Legion 7/7i gen. 6 ANSI and ISO models
+Hardware modes are not implented
+PLEASE UPDATE YOUR BIOS IF YOU HAVE ISSUES WITH HARDWARE MODES AFTER CLOSING OPENRGB
+
+If you have other models beside the Legion 7 gen 6 and want to test if RGB can be added to OpenRGB,
+you can do so if you're on Windows by running
+[this Powershell script](https://gitlab.com/pvazny/legion7-rgb-ps) with the `-test` parameter:
+
+```powershell
+legion7-rgb.ps1 -test -v 0x048D -p 0xC935 -up 0xFF89 -u 0x07 -c 0xa1 -start 0x15 -stop 0xa1
+```
+
+This script will iterate through each LED one by one, in bank `$c = 0xa1`, between IDs
+`-start 0x15` and `-stop 0xa1`, on the HID device with VID `-v 0x048D` PID `-p 0xC935` usage page
+`-up 0xFF89` and usage `-u 0x07`. It will default to the Legion 7 Gen 6 description, however you can
+enter a new description for each LED and at the end it will generate the differences.
+
+To check if you have an eligible HID device that could potentially be iterated by the script please
+open the powershell command prompt and executre the follow:
+
+```powershell
+Get-PnpDevice -Class 'HIDClass' | ForEach-Object { [PSCustomObject]@{Name = $_.FriendlyName; InstanceId = $_.InstanceId; HardwareId = ($_.HardwareId | Where-Object {$_ -like 'HID_DEVICE_UP:*' })}} | Where-Object { $_.HardwareId -ne $null } | Sort-Object InstanceId
+```
+
+If the script is successful please create a [new device issue](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/new?issuable_template=New%20Device#)
+and attach the relevant details to request support for your device."
+"Lenovo USB","Keyboard","USB","Lenovo Legion 7S gen 5","048D","C957","","","❌","✔️","❌","Tested on Lenovo Legion 7/7i gen. 6 ANSI and ISO models
+Hardware modes are not implented
+PLEASE UPDATE YOUR BIOS IF YOU HAVE ISSUES WITH HARDWARE MODES AFTER CLOSING OPENRGB
+
+If you have other models beside the Legion 7 gen 6 and want to test if RGB can be added to OpenRGB,
+you can do so if you're on Windows by running
+[this Powershell script](https://gitlab.com/pvazny/legion7-rgb-ps) with the `-test` parameter:
+
+```powershell
+legion7-rgb.ps1 -test -v 0x048D -p 0xC935 -up 0xFF89 -u 0x07 -c 0xa1 -start 0x15 -stop 0xa1
+```
+
+This script will iterate through each LED one by one, in bank `$c = 0xa1`, between IDs
+`-start 0x15` and `-stop 0xa1`, on the HID device with VID `-v 0x048D` PID `-p 0xC935` usage page
+`-up 0xFF89` and usage `-u 0x07`. It will default to the Legion 7 Gen 6 description, however you can
+enter a new description for each LED and at the end it will generate the differences.
+
+To check if you have an eligible HID device that could potentially be iterated by the script please
+open the powershell command prompt and executre the follow:
+
+```powershell
+Get-PnpDevice -Class 'HIDClass' | ForEach-Object { [PSCustomObject]@{Name = $_.FriendlyName; InstanceId = $_.InstanceId; HardwareId = ($_.HardwareId | Where-Object {$_ -like 'HID_DEVICE_UP:*' })}} | Where-Object { $_.HardwareId -ne $null } | Sort-Object InstanceId
+```
+
+If the script is successful please create a [new device issue](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/new?issuable_template=New%20Device#)
+and attach the relevant details to request support for your device."
+"Lenovo USB","Keyboard","USB","Lenovo Legion 7 gen 6","048D","C968","","","❌","✔️","❌","Tested on Lenovo Legion 7/7i gen. 6 ANSI and ISO models
+Hardware modes are not implented
+PLEASE UPDATE YOUR BIOS IF YOU HAVE ISSUES WITH HARDWARE MODES AFTER CLOSING OPENRGB
+
+If you have other models beside the Legion 7 gen 6 and want to test if RGB can be added to OpenRGB,
+you can do so if you're on Windows by running
+[this Powershell script](https://gitlab.com/pvazny/legion7-rgb-ps) with the `-test` parameter:
+
+```powershell
+legion7-rgb.ps1 -test -v 0x048D -p 0xC935 -up 0xFF89 -u 0x07 -c 0xa1 -start 0x15 -stop 0xa1
+```
+
+This script will iterate through each LED one by one, in bank `$c = 0xa1`, between IDs
+`-start 0x15` and `-stop 0xa1`, on the HID device with VID `-v 0x048D` PID `-p 0xC935` usage page
+`-up 0xFF89` and usage `-u 0x07`. It will default to the Legion 7 Gen 6 description, however you can
+enter a new description for each LED and at the end it will generate the differences.
+
+To check if you have an eligible HID device that could potentially be iterated by the script please
+open the powershell command prompt and executre the follow:
+
+```powershell
+Get-PnpDevice -Class 'HIDClass' | ForEach-Object { [PSCustomObject]@{Name = $_.FriendlyName; InstanceId = $_.InstanceId; HardwareId = ($_.HardwareId | Where-Object {$_ -like 'HID_DEVICE_UP:*' })}} | Where-Object { $_.HardwareId -ne $null } | Sort-Object InstanceId
+```
+
+If the script is successful please create a [new device issue](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/new?issuable_template=New%20Device#)
+and attach the relevant details to request support for your device."
+"Lenovo USB","Keyboard","USB","Lenovo Legion 7S gen 6","048D","C967","","","❌","✔️","❌","Tested on Lenovo Legion 7/7i gen. 6 ANSI and ISO models
+Hardware modes are not implented
+PLEASE UPDATE YOUR BIOS IF YOU HAVE ISSUES WITH HARDWARE MODES AFTER CLOSING OPENRGB
+
+If you have other models beside the Legion 7 gen 6 and want to test if RGB can be added to OpenRGB,
+you can do so if you're on Windows by running
+[this Powershell script](https://gitlab.com/pvazny/legion7-rgb-ps) with the `-test` parameter:
+
+```powershell
+legion7-rgb.ps1 -test -v 0x048D -p 0xC935 -up 0xFF89 -u 0x07 -c 0xa1 -start 0x15 -stop 0xa1
+```
+
+This script will iterate through each LED one by one, in bank `$c = 0xa1`, between IDs
+`-start 0x15` and `-stop 0xa1`, on the HID device with VID `-v 0x048D` PID `-p 0xC935` usage page
+`-up 0xFF89` and usage `-u 0x07`. It will default to the Legion 7 Gen 6 description, however you can
+enter a new description for each LED and at the end it will generate the differences.
+
+To check if you have an eligible HID device that could potentially be iterated by the script please
+open the powershell command prompt and executre the follow:
+
+```powershell
+Get-PnpDevice -Class 'HIDClass' | ForEach-Object { [PSCustomObject]@{Name = $_.FriendlyName; InstanceId = $_.InstanceId; HardwareId = ($_.HardwareId | Where-Object {$_ -like 'HID_DEVICE_UP:*' })}} | Where-Object { $_.HardwareId -ne $null } | Sort-Object InstanceId
+```
+
+If the script is successful please create a [new device issue](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/new?issuable_template=New%20Device#)
+and attach the relevant details to request support for your device."
+"Lexip Mouse","Mouse","USB","Np93 ALPHA - Gaming Mouse","04D8","FD0A","","","❌","✔️","❌",""
+"Lian Li Uni Hub","Cooler","USB","Lian Li Uni Hub - AL","0CF2","A101","","","❌","🚨","✔️",""
+"Lian Li Uni Hub AL","","USB","Lian Li Uni Hub - AL","0CF2","A101","","","❌","🚨","✔️",""
+"Lian Li Uni Hub","","USB","Lian Li Uni Hub - AL","0CF2","A101","","","❌","🚨","✔️",""
+"Lian Li Strimer L Connect","LEDStrip","USB","Strimer L Connect","0CF2","A200","","","❌","🚨","✔️","The Lian Li Strimer L Connect `Direct` mode stutters at high frame rates and
+and has been rate limited to ~10FPS."
+"Logitech G203L","Mouse","USB","Logitech G203 Lightsync","046D","C092","","","🤖","✔️","✔️",""
+"Logitech G213","Keyboard","USB","Logitech G213","046D","C336","","","🤖","✔️","✔️",""
+"Logitech G560","Speaker","USB","Logitech G560 Lightsync Speaker","046D","0A78","","","❌","✔️","❌",""
+"Logitech G810","Keyboard","USB","Logitech G512","046D","C342","","","🤖","✔️","✔️",""
+"Logitech G810","Keyboard","USB","Logitech G512 RGB","046D","C33C","","","🤖","✔️","✔️",""
+"Logitech G810","Keyboard","USB","Logitech G610 Orion","046D","C333","","","🤖","✔️","✔️",""
+"Logitech G810","Keyboard","USB","Logitech G610 Orion","046D","C338","","","🤖","✔️","✔️",""
+"Logitech G810","Keyboard","USB","Logitech G810 Orion Spectrum","046D","C331","","","🤖","✔️","✔️",""
+"Logitech G810","Keyboard","USB","Logitech G810 Orion Spectrum","046D","C337","","","🤖","✔️","✔️",""
+"Logitech G815","Keyboard","USB","Logitech G813 RGB Mechanical Gaming Keyboard","046D","C232","","","🤖","✔️","✔️",""
+"Logitech G815","Keyboard","USB","Logitech G815 RGB Mechanical Gaming Keyboard","046D","C33F","","","🤖","✔️","✔️",""
+"Logitech G910","Keyboard","USB","Logitech G910 Orion Spark","046D","C32B","","","🤖","✔️","✔️",""
+"Logitech G910","Keyboard","USB","Logitech G910 Orion Spectrum","046D","C335","","","🤖","✔️","✔️",""
+"Logitech G915","Keyboard","USB","Logitech G915 Wireless RGB Mechanical Gaming Keyboard","046D","C541","","","🤖","✔️","✔️",""
+"Logitech G915","Keyboard","USB","Logitech G915 Wireless RGB Mechanical Gaming Keyboard","046D","C547","","","🤖","✔️","✔️",""
+"Logitech G915","Keyboard","USB","Logitech G915 Wireless RGB Mechanical Gaming Keyboard (Wired)","046D","C33E","","","🤖","✔️","✔️",""
+"Logitech G915","Keyboard","USB","Logitech G915TKL Wireless RGB Mechanical Gaming Keyboard","046D","C545","","","🤖","✔️","✔️",""
+"Logitech G915","Keyboard","USB","Logitech G915TKL Wireless RGB Mechanical Gaming Keyboard (Wired)","046D","C343","","","🤖","✔️","✔️",""
+"Logitech G915","Keyboard","USB","Logitech G915 Wireless RGB Mechanical Gaming Keyboard (Wired)","046D","C33E","","","🤖","✔️","✔️",""
+"Logitech G915","Keyboard","USB","Logitech G915TKL Wireless RGB Mechanical Gaming Keyboard (Wired)","046D","C343","","","🤖","✔️","✔️",""
+"Logitech G933","Headset","USB","Logitech G933 Lightsync Headset","046D","0A5B","","","❌","✔️","❌",""
+"Logitech Lightsync Mouse","Mouse","USB","Logitech G303 Daedalus Apex","046D","C080","","","🤖","✔️","✔️",""
+"Logitech Lightsync Mouse","Mouse","USB","Logitech G403 Hero","046D","C08F","","","🤖","✔️","✔️",""
+"Logitech Lightsync Mouse (1 Zone)","Mouse","USB","Logitech G203 Prodigy","046D","C084","","","🤖","✔️","✔️",""
+"Logitech Lightsync Mouse (1 Zone)","Mouse","USB","Logitech G203 Lightsync","046D","C092","","","🤖","✔️","✔️",""
+"Logitech Lightsync Mouse (1 Zone)","Mouse","USB","Logitech G Pro Gaming Mouse","046D","C085","","","🤖","✔️","✔️",""
+"Logitech Lightsync Mouse (1 Zone)","Mouse","USB","Logitech G Pro (HERO) Gaming Mouse","046D","C08C","","","🤖","✔️","✔️",""
+"Logitech Powerplay Mat","Mousemat","USB","","","","","","❌","✔️","✔️",""
+"Logitech G Pro","Keyboard","USB","Logitech G Pro RGB Mechanical Gaming Keyboard","046D","C339","","","🤖","✔️","✔️",""
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G403 Wireless Gaming Mouse","046D","405D","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G502 Wireless Gaming Mouse","046D","407F","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G703 Wireless Gaming Mouse","046D","4070","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G703 Hero Wireless Gaming Mouse","046D","4086","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G900 Wireless Gaming Mouse","046D","4053","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G903 Wireless Gaming Mouse","046D","4067","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G903 Hero Wireless Gaming Mouse","046D","4087","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G Pro Wireless Gaming Mouse","046D","4079","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech Powerplay Mat","046D","405F","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G502 Proteus Spectrum Gaming Mouse","046D","C332","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G502 Hero Gaming Mouse","046D","C08B","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G403 Prodigy Gaming Mouse","046D","C083","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G403 Wireless Gaming Mouse (wired)","046D","C082","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G502 Wireless Gaming Mouse (wired)","046D","C08D","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G703 Wireless Gaming Mouse (wired)","046D","C087","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G703 Hero Wireless Gaming Mouse (wired)","046D","C090","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G900 Wireless Gaming Mouse (wired)","046D","C081","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G903 Wireless Gaming Mouse (wired)","046D","C086","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G903 Hero Wireless Gaming Mouse (wired)","046D","C091","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G Pro Wireless Gaming Mouse (wired)","046D","C088","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G633 Gaming Headset","046D","0X0A5C","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G733 Gaming Headset","046D","0AB5","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech Lightspeed","Keyboard
+Mouse
+Mousemat
+Headset","USB","Logitech G935 Gaming Headset","046D","0A87","","","✔️","✔️","✔️","The Lightspeed controller is the generic RGB Controller
+for all Logitech HID++ devices that support feature page 8070."
+"Logitech X56","Gamepad","USB","Logitech X56 Rhino Hotas Joystick","0738","2221","","","✔️","✔️","❌",""
+"Logitech X56","Gamepad","USB","Logitech X56 Rhino Hotas Throttle","0738","A221","","","✔️","✔️","❌",""
+"MSI 3 Zone Keyboard","Keyboard","USB","MSI 3-Zone Laptop","1770","FF00","","","❌","✔️","❌",""
+"MSI GPU","GPU","I2C","MSI GeForce GTX 1070 Gaming X","10DE","1B81","1462","3306","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce GTX 1660 Gaming X 6G","10DE","2184","1462","3790","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce GTX 1660Ti Gaming 6G","10DE","2182","1462","375C","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce GTX 1660Ti Gaming X 6G","10DE","2182","1462","375A","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce GTX 1660 Super Gaming 6G","10DE","21C4","1462","C759","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce GTX 1660 Super Gaming X 6G","10DE","21C4","1462","C758","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2060 Gaming Z 6G","10DE","1E89","1462","3752","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2060 Gaming Z 6G","10DE","1F08","1462","3752","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2060 Gaming Z 6G","10DE","1F08","1462","3754","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2060 Super Gaming X","10DE","1F06","1462","C752","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2060 Super ARMOR OC","10DE","1F06","1462","C754","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 Gaming Z","10DE","1F07","1462","3732","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 Gaming","10DE","1F02","1462","3733","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 ARMOR","10DE","1F02","1462","3734","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 ARMOR OC","10DE","1F07","1462","3734","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 SUPER ARMOR OC","10DE","1E84","1462","C730","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 Super Gaming","10DE","1E84","1462","373F","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 Super Gaming Trio","10DE","1E84","1462","C727","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 Super Gaming X","10DE","1E84","1462","373e","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 Super Gaming X Trio","10DE","1E84","1462","C726","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2070 Super Gaming Z Trio","10DE","1E84","1462","37B6","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2080 Gaming Trio","10DE","1E82","1462","372E","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2080 Gaming X Trio","10DE","1E87","1462","3726","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2080 Sea Hawk EK X","10DE","1E87","1462","3728","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2080 Duke 8G OC","10DE","1E87","1462","3721","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2080 Super Gaming X Trio","10DE","1E81","1462","C724","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2080Ti Gaming X Trio","10DE","1E07","1462","3715","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2080Ti Gaming Z Trio","10DE","1E07","1462","371E","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2080Ti 11G Gaming X Trio","10DE","1E07","1462","3716","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 2080Ti Sea Hawk EK X","10DE","1E07","1462","3717","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3060 Gaming X 12G","10DE","2503","1462","3976","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3060 Gaming X 12G LHR","10DE","2504","1462","3976","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3060 Gaming X 12G (GA104)","10DE","2487","1462","3976","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3060 12G Gaming X Trio LHR","10DE","2504","1462","3903","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3060 12GB Gaming X Trio","10DE","2503","1462","3903","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3060 Ti 8GB Gaming X Trio","10DE","2486","1462","3903","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3060 Ti 8GB Gaming X LHR","10DE","2489","1462","3973","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3060 Ti 8GB Gaming X Trio LHR","10DE","2489","1462","3903","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3070 8GB Gaming Trio","10DE","2488","1462","3904","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3070 8GB Gaming X Trio","10DE","2484","1462","3903","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3070 8GB Suprim X","10DE","2484","1462","3901","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3070 8GB Suprim X LHR","10DE","2488","1462","3901","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3070 Ti 8GB Gaming X Trio","10DE","2482","1462","5052","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3070 Ti Suprim X 8G","10DE","2482","1462","5051","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3080 10GB Gaming Z Trio","10DE","2206","1462","389B","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3080 10GB Gaming Z Trio LHR","10DE","2216","1462","389B","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3080 10GB Gaming X Trio","10DE","2206","1462","3892","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3080 Suprim X 10G","10DE","2206","1462","3897","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3080 Suprim X 10G LHR","10DE","2216","1462","3897","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3080 Suprim X 12G LHR","10DE","220A","1462","3897","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3080 12GB Gaming Z Trio LHR","10DE","220A","1462","389B","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3080 Ti Gaming X Trio 12G","10DE","2208","1462","389B","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3080 Ti Suprim X 12G","10DE","2208","1462","3897","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3090 24GB Gaming X Trio","10DE","2204","1462","3884","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3090 Suprim X 24G","10DE","2204","1462","3882","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3090 Ti Suprim X 24G","10DE","2203","1462","5090","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI GeForce RTX 3090 Ti Gaming X Trio 24G","10DE","2203","1462","5091","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI Radeon RX 6600 XT Gaming X","1002","73FF","1462","5020","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI Radeon RX 6700 XT Gaming X","1002","73FF","1462","3981","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI Radeon RX 6800 Gaming X Trio","1002","73BF","1462","3961","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI Radeon RX 6800 XT Gaming X Trio","1002","73BF","1462","3951","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI Radeon RX 6800 XT Gaming Z Trio","1002","73BF","1462","3953","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI Radeon RX 6900 XT Gaming X Trio","1002","73BF","1462","3952","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI Radeon RX 6900 XT Gaming Z Trio","1002","73AF","1462","3955","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI Radeon RX 6950 XT Gaming X Trio","1002","73BF","1462","3955","✔️","✔️","✔️",""
+"MSI GPU","GPU","I2C","MSI Radeon RX 6950 XT Gaming X Trio","1002","73A5","1462","3955","✔️","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_1720","1462","1720","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7B12","1462","7B12","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7B16","1462","7B16","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7B17","1462","7B17","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7B18","1462","7B18","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7B50","1462","7B50","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7B85","1462","7B85","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7B93","1462","7B93","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C34","1462","7C34","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C35","1462","7C35","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C36","1462","7C36","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C37","1462","7C37","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C56","1462","7C56","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C59","1462","7C59","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C60","1462","7C60","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C67","1462","7C67","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C71","1462","7C71","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C73","1462","7C73","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C75","1462","7C75","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C76","1462","7C76","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C77","1462","7C77","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C79","1462","7C79","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C80","1462","7C80","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C81","1462","7C81","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C83","1462","7C83","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C84","1462","7C84","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C86","1462","7C86","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C87","1462","7C87","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C90","1462","7C90","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C91","1462","7C91","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C92","1462","7C92","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C94","1462","7C94","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C95","1462","7C95","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7C98","1462","7C98","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D06","1462","7D06","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D07","1462","7D07","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D08","1462","7D08","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D09","1462","7D09","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D13","1462","7D13","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D15","1462","7D15","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D17","1462","7D17","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D18","1462","7D18","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D19","1462","7D19","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D20","1462","7D20","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D25","1462","7D25","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D27","1462","7D27","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D28","1462","7D28","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D29","1462","7D29","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D30","1462","7D30","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D31","1462","7D31","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D32","1462","7D32","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D36","1462","7D36","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D38","1462","7D38","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D41","1462","7D41","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D42","1462","7D42","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D43","1462","7D43","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D50","1462","7D50","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D51","1462","7D51","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D52","1462","7D52","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D53","1462","7D53","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D54","1462","7D54","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D59","1462","7D59","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D67","1462","7D67","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D69","1462","7D69","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D77","1462","7D77","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7D91","1462","7D91","","","🤖","✔️","✔️",""
+"MSI Mystic Light (162 Byte)","Motherboard","USB","MSI Mystic Light MS_7E06","1462","7E06","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_1720","1462","1720","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7B12","1462","7B12","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7B16","1462","7B16","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7B17","1462","7B17","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7B18","1462","7B18","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7B50","1462","7B50","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7B85","1462","7B85","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7B93","1462","7B93","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C34","1462","7C34","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C35","1462","7C35","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C36","1462","7C36","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C37","1462","7C37","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C56","1462","7C56","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C59","1462","7C59","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C60","1462","7C60","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C67","1462","7C67","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C71","1462","7C71","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C73","1462","7C73","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C75","1462","7C75","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C76","1462","7C76","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C77","1462","7C77","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C79","1462","7C79","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C80","1462","7C80","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C81","1462","7C81","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C83","1462","7C83","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C84","1462","7C84","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C86","1462","7C86","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C87","1462","7C87","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C90","1462","7C90","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C91","1462","7C91","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C92","1462","7C92","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C94","1462","7C94","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C95","1462","7C95","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7C98","1462","7C98","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D06","1462","7D06","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D07","1462","7D07","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D08","1462","7D08","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D09","1462","7D09","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D13","1462","7D13","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D15","1462","7D15","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D17","1462","7D17","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D18","1462","7D18","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D19","1462","7D19","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D20","1462","7D20","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D25","1462","7D25","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D27","1462","7D27","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D28","1462","7D28","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D29","1462","7D29","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D30","1462","7D30","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D31","1462","7D31","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D32","1462","7D32","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D36","1462","7D36","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D38","1462","7D38","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D41","1462","7D41","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D42","1462","7D42","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D43","1462","7D43","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D50","1462","7D50","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D51","1462","7D51","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D52","1462","7D52","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D53","1462","7D53","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D54","1462","7D54","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D59","1462","7D59","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D67","1462","7D67","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D69","1462","7D69","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D77","1462","7D77","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7D91","1462","7D91","","","🤖","✔️","✔️",""
+"MSI Mystic Light (185 Byte)","Motherboard","USB","MSI Mystic Light MS_7E06","1462","7E06","","","🤖","✔️","✔️",""
+"MSI GL66 Mystic Light Keyboard (64 Byte)","Keyboard","USB","MSI Mystic Light MS_1562","1462","1562","","","🤖","","✔️",""
+"MSI GL66 Mystic Light Keyboard (64 Byte)","Keyboard","USB","MSI Mystic Light MS_1563","1462","1563","","","🤖","","✔️",""
+"MSI GL66 Mystic Light Keyboard (64 Byte)","Keyboard","USB","MSI Mystic Light MS_1564","1462","1564","","","🤖","","✔️",""
+"MSI Optix","LEDStrip","USB","MSI Optix controller","1462","3FA4","","","❌","✔️","❌",""
+"MSI Vigor GK30","Keyboard","USB","MSI Vigor GK30 controller","0DB0","0B30","","","🤖","❌","✔️","This device does only support 7 different colors"
+"N5312A mouse","Mouse","USB","N5312A USB Optical Mouse","4E53","5406","","","❌","✔️","✔️","This controller should work with all mouse with this chip.
+Identified devices that work with this controller: ANT Esports KM540 Mouse,
+Marvo M115"
+"NZXT Hue2","LEDStrip","USB","NZXT Hue 2","1E71","2001","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Hue 2 Ambient","1E71","2002","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Hue 2 Motherboard","1E71","2005","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Hue 2 Motherboard","1E71","200B","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Hue 2 Ambient","1E71","2002","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Hue 2 Motherboard","1E71","2005","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Hue 2 Motherboard","1E71","200B","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Smart Device V2","1E71","2006","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Smart Device V2","1E71","200D","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Smart Device V2","1E71","200F","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT Kraken X3","1E71","2007","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT RGB & Fan Controller","1E71","2009","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT RGB & Fan Controller","1E71","2010","","","🤖","✔️","✔️",""
+"NZXT Hue2","LEDStrip","USB","NZXT RGB & Fan Controller","1E71","200E","","","🤖","✔️","✔️",""
+"NZXT Kraken","Cooler","USB","NZXT Kraken X2","1E71","170E","","","❌","✔️","✔️",""
+"NZXT Kraken","Cooler","USB","NZXT Kraken M2","1E71","1715","","","❌","✔️","✔️",""
+"NVidia ESA","Case","USB","Nvidia ESA - Dell XPS 730x","0955","000A","","","❌","❌","✔️",""
+"Openrazer","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","","","","","","❌","✔️","✔️","The Openrazer controller has been deprecated in favour of
+the in built Razer controller."
+"Openrazer Windows","Keyboard
+Mouse
+Mousemat
+HeadsetStand","USB","","","","","","❌","✔️","✔️","The Openrazer controller has been deprecated in favour of
+the in built Razer controller."
+"PNY GPU","GPU","I2C","PNY XLR8 Revel EPIC-X RTX 3060","10DE","2503","196E","138E","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","PNY XLR8 Revel EPIC-X RTX 3070","10DE","2484","196E","136E","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","PNY XLR8 Revel EPIC-X RTX 3080","10DE","2206","196E","136B","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","PNY XLR8 Revel EPIC-X RTX 3090","10DE","2204","196E","136A","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","PNY XLR8 OC EDITION RTX 2060","10DE","1E89","196E","1363","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3060","10DE","2503","1569","2503","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3060 LHR","10DE","2504","1569","2504","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3060Ti","10DE","2486","1569","2486","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3060TI LHR","10DE","2489","1569","2489","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3070","10DE","2484","1569","2484","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3070 LHR","10DE","2488","1569","2488","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3070Ti GamingPro","10DE","2482","1569","2482","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3070Ti","10DE","2482","1569","F278","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3080","10DE","2206","1569","2206","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3080 LHR","10DE","2216","1569","2216","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3080Ti","10DE","2208","1569","2208","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3080Ti Gamerock","10DE","2208","1569","F278","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit 3090","10DE","2204","1569","2204","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","Palit GeForce RTX 3060 Ti Dual","10DE","2486","10DE","2486","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","NVIDIA RTX2080S","10DE","1E81","10DE","1E81","❌","✔️","✔️",""
+"PNY GPU","GPU","I2C","NVIDIA RTX2060S","10DE","1F08","10DE","1F08","❌","✔️","✔️",""
+"Patriot Viper","RAM","I2C","","","","","","❌","✔️","✔️",""
+"Patriot Viper Steel","RAM","I2C","","","","","","❌","✔️","✔️",""
+"Quantum Mechanical Keyboard (QMK)","Keyboard","USB","","","","","","❌","✔️","✔️","Please see [the github page](https://github.com/qmk/qmk_firmware#supported-keyboards) for the up to date list of
+keyboards supported by the QMK controller."
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow 2019","1532","0241","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow Chroma","1532","0203","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow Chroma Tournament Edition","1532","0209","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow Chroma V2","1532","0221","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow Elite","1532","0228","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow Overwatch","1532","0211","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow V3","1532","024E","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow V3 Pro (Wired)","1532","025A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow V3 Pro (Wireless)","1532","025C","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow V3 TKL","1532","0A24","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow V3 Mini (Wired)","1532","0258","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow V3 Mini (Wireless)","1532","0271","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow X Chroma","1532","0216","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blackwidow X Chroma Tournament Edition","1532","021A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Cynosa Chroma","1532","022A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Cynosa Chroma V2","1532","025E","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Cynosa Lite","1532","023F","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathstalker Chroma","1532","0204","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Huntsman","1532","0227","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Huntsman Elite","1532","0226","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Huntsman Mini","1532","0257","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Huntsman Tournament Edition","1532","0243","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Huntsman V2 Analog","1532","0266","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Huntsman V2 TKL","1532","026B","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Huntsman V2","1532","026C","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Ornata Chroma","1532","021E","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Ornata Chroma V2","1532","025D","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Ornata V3","1532","028F","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade (2016)","1532","020F","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade (Late 2016)","1532","0224","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 14 (2021)","1532","0270","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2018 Advanced)","1532","0233","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2018 Base)","1532","023B","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2018 Mercury)","1532","0240","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2019 Advanced)","1532","023A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2019 Base)","1532","0246","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2019 Mercury)","1532","0245","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2019 Studio)","1532","024D","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2020 Advanced)","1532","0253","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2020 Base)","1532","0255","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (Late 2020)","1532","0268","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2021 Advanced)","1532","026D","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2021 Base)","1532","026F","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade 15 (2021 Base)","1532","027A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Pro (2016)","1532","0210","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Pro (2017)","1532","0225","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Pro (2017 FullHD)","1532","022F","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Pro (2019)","1532","0234","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Pro (Late 2019)","1532","024C","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Pro 17 (2020)","1532","0256","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Pro 17 (2021)","1532","0279","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Stealth (2016)","1532","0205","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Stealth (Late 2016)","1532","0220","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Stealth (2017)","1532","022D","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Stealth (Late 2017)","1532","0232","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Stealth (2019)","1532","0239","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Stealth (Late 2019)","1532","024A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Stealth (2020)","1532","0252","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Blade Stealth (Late 2020)","1532","0259","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Book 13 (2020)","1532","026A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Abyssus Elite D.Va Edition","1532","006A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Abyssus Essential","1532","006B","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Basilisk","1532","0064","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Basilisk Essential","1532","0065","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Basilisk Ultimate (Wired)","1532","0086","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Basilisk Ultimate (Wireless)","1532","0088","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Basilisk V2","1532","0085","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Basilisk V3","1532","0099","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathadder Chroma","1532","0043","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathadder Elite","1532","005C","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathadder Essential","1532","006E","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathadder Essential V2","1532","0098","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathadder Essential White Edition","1532","0071","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathadder V2","1532","0084","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathadder V2 Mini","1532","008C","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathadder V2 Pro (Wired)","1532","007C","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Deathadder V2 Pro (Wireless)","1532","007D","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Diamondback","1532","004C","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Lancehead 2017 (Wired)","1532","0059","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Lancehead 2017 (Wireless)","1532","005A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Lancehead 2019 (Wired)","1532","0070","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Lancehead 2019 (Wireless)","1532","006F","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Lancehead Tournament Edition","1532","0060","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mamba 2012 (Wired)","1532","0024","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mamba 2012 (Wireless)","1532","0025","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mamba 2015 (Wired)","1532","0044","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mamba 2015 (Wireless)","1532","0045","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mamba 2018 (Wired)","1532","0073","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mamba 2018 (Wireless)","1532","0072","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mamba Elite","1532","006C","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mamba Tournament Edition","1532","0046","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Naga Chroma","1532","0053","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Naga Classic","1532","0093","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Naga Epic Chroma","1532","003E","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Naga Left Handed","1532","008D","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Naga Hex V2","1532","0050","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Naga Trinity","1532","0067","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Naga Pro (Wired)","1532","008F","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Naga Pro (Wireless)","1532","0090","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Viper","1532","0078","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Viper 8kHz","1532","0091","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Viper Mini","1532","008A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Viper Ultimate (Wired)","1532","007A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Viper Ultimate (Wireless)","1532","007B","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Orbweaver Chroma","1532","0207","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Tartarus Chroma","1532","0208","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Tartarus Pro","1532","0244","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Tartarus V2","1532","022B","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Kraken Kitty Edition","1532","0F19","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Kraken Kitty Black Edition","1532","0F21","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Tiamat 7.1 V2","1532","0F03","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Firefly","1532","0C00","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Firefly V2","1532","0C04","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Firefly Hyperflux","1532","0068","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Goliathus","1532","0C01","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Goliathus Extended","1532","0C02","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Strider Chroma","1532","0C05","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Base Station Chroma","1532","0F08","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Base Station V2 Chroma","1532","0F20","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Charging Pad Chroma","1532","0F26","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Chroma HDK","1532","0F09","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Chroma Mug Holder","1532","0F07","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Chroma PC Case Lighting Kit","1532","0F0E","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Core","1532","0215","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Core X","1532","0F1A","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Laptop Stand Chroma","1532","0F0D","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Laptop Stand Chroma V2","1532","0F2B","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mouse Bungee V3 Chroma","1532","0F1D","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Mouse Dock Chroma","1532","007E","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Lian Li O11 Dynamic - Razer Edition","1532","0F13","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Seiren Emote","1532","0F1B","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Thunderbolt 4 Dock Chroma","1532","0F21","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Nommo Chroma","1532","0517","","","🤖","✔️","✔️",""
+"Razer","Keyboard
+Microphone
+Mouse
+Mousemat
+HeadsetStand
+Case
+GPU
+Accessory","USB","Razer Nommo Pro","1532","0518","","","🤖","✔️","✔️",""
+"Razer ARGB","LEDStrip","USB","Razer Chroma Addressable RGB Controller","1532","0F1F","","","🤖","✔️","✔️",""
+"Razer Kraken","Headset","USB","Razer Kraken 7.1","1532","0501","","","🤖","✔️","✔️",""
+"Razer Kraken","Headset","USB","Razer Kraken 7.1","1532","0506","","","🤖","✔️","✔️",""
+"Razer Kraken","Headset","USB","Razer Kraken 7.1 Chroma","1532","0504","","","🤖","✔️","✔️",""
+"Razer Kraken","Headset","USB","Razer Kraken 7.1 V2","1532","0510","","","🤖","✔️","✔️",""
+"Razer Kraken","Headset","USB","Razer Kraken Ultimate","1532","0527","","","🤖","✔️","✔️",""
+"Redragon Mice","Mouse","USB","Redragon M711 Cobra","04D9","FC30","","","🤖","❌","✔️",""
+"Redragon Mice","Mouse","USB","Redragon M715 Dagger","04D9","FC39","","","🤖","❌","✔️",""
+"Redragon Mice","Mouse","USB","Redragon M716 Inquisitor","04D9","FC3A","","","🤖","❌","✔️",""
+"Redragon Mice","Mouse","USB","Redragon M908 Impact","04D9","FC4D","","","🤖","❌","✔️",""
+"Redragon Mice","Mouse","USB","Redragon M602 Griffin","04D9","FC38","","","🤖","❌","✔️",""
+"Roccat Burst Mouse","Mouse","USB","Roccat Burst Core","1E7D","2DE6","","","🤖","✔️","✔️",""
+"Roccat Burst Mouse","Mouse","USB","Roccat Burst Pro","1E7D","2DE1","","","🤖","✔️","✔️",""
+"Roccat Horde Aimo","Keyboard","USB","Roccat Horde Aimo","1E7D","303E","","","❌","✔️","❌",""
+"Roccat Kone Aimo","Mouse","USB","Roccat Kone Aimo","1E7D","2E27","","","❌","✔️","✔️",""
+"Roccat Kone Aimo","Mouse","USB","Roccat Kone Aimo 16K","1E7D","2E2C","","","❌","✔️","✔️",""
+"Roccat Kova","Mouse","USB","","","","","","🤖","❌","✔️","Color Flow mode is only supported starting at the first
+preset color in the mouse's memory, and color offsets for each LED
+are not supported. You'd need to use Swarm if you intend to use that
+specific feature."
+"Roccat Vulcan Aimo","Keyboard","USB","Roccat Vulcan 120-Series Aimo","1E7D","3098","","","🤖","✔️","✔️",""
+"SRGBmods Raspberry Pi Pico LED Controller","LEDStrip","USB","SRGBmods Pico LED Controller","16D0","1123","","","❌","✔️","✔️",""
+"Sapphire Nitro Glow v1","GPU","I2C","Sapphire RX 470/480 Nitro+","1002","67DF","174B","E347","❌","❌","✔️",""
+"Sapphire Nitro Glow v1","GPU","I2C","Sapphire RX 570/580/590 Nitro+","1002","67DF","1DA2","E366","❌","❌","✔️",""
+"Sapphire Nitro Glow v1","GPU","I2C","Sapphire RX 570/580/590 Nitro+","1002","67DF","1DA2","E399","❌","❌","✔️",""
+"Sapphire Nitro Glow v1","GPU","I2C","Sapphire RX 580 Nitro+ (2048SP)","1002","6FDF","1DA2","E366","❌","❌","✔️",""
+"Sapphire Nitro Glow v1","GPU","I2C","Sapphire RX Vega 56/64 Nitro+","1002","687F","1DA2","E37F","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 5700 (XT) Nitro+","1002","731F","1DA2","E409","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 5700 XT Nitro+","1002","731F","1DA2","E410","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 5700 XT Nitro+","1002","731F","1DA2","426E","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 5500 XT Nitro+","1002","7340","1DA2","E423","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6800 XT Nitro+ SE","1002","73BF","1DA2","438E","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6800 XT/6900 XT Nitro+","1002","73BF","1DA2","E438","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6800 Nitro+","1002","73BF","1DA2","E439","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6700 XT Nitro+","1002","73DF","1DA2","E445","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6600 XT Nitro+","1002","73FF","1DA2","E448","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6900 XT Nitro+ SE","1002","73BF","1DA2","440E","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6950 XT Nitro+","1002","73A5","1DA2","441D","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6900 XT Toxic","1002","73AF","1DA2","F440","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6900 XT Toxic Limited Edition","1002","73BF","1DA2","F441","❌","❌","✔️",""
+"Sapphire Nitro Glow v3","GPU","I2C","Sapphire RX 6900 XT Toxic","1002","73BF","1DA2","440F","❌","❌","✔️",""
+"Sinowealth Mice","Mouse","USB","Glorious Model O / O-","258A","0036","","","🤖","❌","✔️",""
+"Sinowealth Mice","Mouse","USB","Glorious Model D / D-","258A","0033","","","🤖","❌","✔️",""
+"Sinowealth Mice","Mouse","USB","Everest GT-100 RGB","258A","0029","","","🤖","❌","✔️",""
+"Sinowealth Mice","Mouse","USB","ZET Fury Pro","258A","1007","","","🤖","❌","✔️",""
+"Sinowealth Mice","Mouse","USB","Glorious Model O / O- Wireless","258A","2022","","","🤖","❌","✔️",""
+"Sinowealth Mice","Mouse","USB","Glorious Model O / O- Wireless","258A","2011","","","🤖","❌","✔️",""
+"Sinowealth Mice","Mouse","USB","Glorious Model D / D- Wireless","258A","2023","","","🤖","❌","✔️",""
+"Sinowealth Mice","Mouse","USB","Glorious Model D / D- Wireless","258A","2012","","","🤖","❌","✔️",""
+"Sinowealth 1007 Mouse","Mouse","USB","Glorious Model O / O-","258A","0036","","","❌","❌","✔️",""
+"Sinowealth 1007 Mouse","Mouse","USB","Glorious Model D / D-","258A","0033","","","❌","❌","✔️",""
+"Sinowealth 1007 Mouse","Mouse","USB","Everest GT-100 RGB","258A","0029","","","❌","❌","✔️",""
+"Sinowealth 1007 Mouse","Mouse","USB","ZET Fury Pro","258A","1007","","","❌","❌","✔️",""
+"Sinowealth 1007 Mouse","Mouse","USB","Glorious Model O / O- Wireless","258A","2022","","","❌","❌","✔️",""
+"Sinowealth 1007 Mouse","Mouse","USB","Glorious Model O / O- Wireless","258A","2011","","","❌","❌","✔️",""
+"Sinowealth 1007 Mouse","Mouse","USB","Glorious Model D / D- Wireless","258A","2023","","","❌","❌","✔️",""
+"Sinowealth 1007 Mouse","Mouse","USB","Glorious Model D / D- Wireless","258A","2012","","","❌","❌","✔️",""
+"Sinowealth Glorious Model O Wireless","","USB","Glorious Model O / O-","258A","0036","","","✔️","❌","✔️",""
+"Sinowealth Glorious Model O Wireless","","USB","Glorious Model D / D-","258A","0033","","","✔️","❌","✔️",""
+"Sinowealth Glorious Model O Wireless","","USB","Everest GT-100 RGB","258A","0029","","","✔️","❌","✔️",""
+"Sinowealth Glorious Model O Wireless","","USB","ZET Fury Pro","258A","1007","","","✔️","❌","✔️",""
+"Sinowealth Glorious Model O Wireless","","USB","Glorious Model O / O- Wireless","258A","2022","","","✔️","❌","✔️",""
+"Sinowealth Glorious Model O Wireless","","USB","Glorious Model O / O- Wireless","258A","2011","","","✔️","❌","✔️",""
+"Sinowealth Glorious Model O Wireless","","USB","Glorious Model D / D- Wireless","258A","2023","","","✔️","❌","✔️",""
+"Sinowealth Glorious Model O Wireless","","USB","Glorious Model D / D- Wireless","258A","2012","","","✔️","❌","✔️",""
+"Sinowealth Keyboard","Keyboard","USB","","","","","","❌","❌","✔️",""
+"Sinowealth Keyboard 16","Keyboard","USB","","","","","","❌","❌","✔️",""
+"Genesis Thor 300","Keyboard","USB","Genesis Thor 300","258A","0090","","","🤖","🚨","✔️","Direct mode is not supported by the keyboard"
+"Sony Dual Shock 4 controller","Gamepad","USB","Sony DualShock 4","054C","05C4","","","❌","✔️","❌",""
+"Sony Dual Shock 4 controller","Gamepad","USB","Sony DualShock 4","054C","09CC","","","❌","✔️","❌",""
+"Sony Dual Shock 4 controller","Gamepad","USB","Sony DualShock 4","054C","0BA0","","","❌","✔️","❌",""
+"Sony Dual Sense controller","Gamepad","USB","Sony DualSense","054C","0CE6","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex 3","1038","161A","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex 3 TKL","1038","1622","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex 5","1038","161C","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex 7","1038","1612","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex 7 TKL","1038","1618","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex Pro","1038","1610","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex Pro TKL","1038","1614","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex M750","1038","0616","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex (OG)/Apex Fnatic","1038","1202","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex 350","1038","1206","","","❌","✔️","❌",""
+"Steel Series APEX","Keyboard","USB","SteelSeries Apex M750","1038","0616","","","❌","✔️","❌",""
+"Steel Series Apex Tri Zone Keyboards","Keyboard","USB","","","","","","❌","✔️","✔️",""
+"Steelseries Arctis 5","Headset","USB","SteelSeries Arctis 5","1038","12AA","","","❌","✔️","❌",""
+"Steel Series Apex (Old)","Keyboard","USB","SteelSeries Apex (OG)/Apex Fnatic","1038","1202","","","❌","✔️","❌",""
+"Steel Series Apex (Old)","Keyboard","USB","SteelSeries Apex 350","1038","1206","","","❌","✔️","❌",""
+"Steel Series QCK Mat","Mousemat","USB","SteelSeries QCK Prism Cloth Medium","1038","150A","","","❌","✔️","❌",""
+"Steel Series QCK Mat","Mousemat","USB","SteelSeries QCK Prism Cloth XL","1038","150D","","","❌","✔️","❌",""
+"Steel Series QCK Mat","Mousemat","USB","SteelSeries QCK Prism Cloth XL Destiny Ed.","1038","151E","","","❌","✔️","❌",""
+"Steel Series QCK Mat","Mousemat","USB","SteelSeries QCK Prism Cloth XL CS:GO Neon Rider Ed.","1038","1514","","","❌","✔️","❌",""
+"Steel Series QCK Mat","Mousemat","USB","SteelSeries QCK Prism Cloth 3XL","1038","1516","","","❌","✔️","❌",""
+"Steel Series QCK Mat","Mousemat","USB","SteelSeries QCK Prism Cloth 4XL","1038","1518","","","❌","✔️","❌",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 100","1038","1702","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 100 DotA 2 Edition","1038","170c","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 105","1038","1814","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 106","1038","1816","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 110","1038","1729","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 300","1038","1710","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","Acer Predator Gaming Mouse (Rival 300)","1038","1714","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 300 CS:GO Fade Edition","1038","1394","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 300 CS:GO Fade Edition (stm32)","1038","1716","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 300 CS:GO Hyperbeast Edition","1038","171a","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 300 Dota 2 Edition","1038","1392","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 300 HP Omen Edition","1038","1718","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 300 Black Ops Edition","1038","1710","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 600","1038","1724","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 600 Dota 2 Edition","1038","172E","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 650","1038","172B","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 650 Wireless","1038","1726","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 700","1038","1700","","","❌","✔️","✔️",""
+"Steel Series Rival","Mouse","USB","SteelSeries Rival 710","1038","1730","","","❌","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","SteelSeries Rival 300","1038","1710","","","✔️","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","Acer Predator Gaming Mouse (Rival 300)","1038","1714","","","✔️","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","SteelSeries Rival 300 CS:GO Fade Edition","1038","1394","","","✔️","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","SteelSeries Rival 300 CS:GO Fade Edition (stm32)","1038","1716","","","✔️","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","SteelSeries Rival 300 CS:GO Hyperbeast Edition","1038","171a","","","✔️","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","SteelSeries Rival 300 Dota 2 Edition","1038","1392","","","✔️","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","SteelSeries Rival 300 HP Omen Edition","1038","1718","","","✔️","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","SteelSeries Rival 300 Black Ops Edition","1038","1710","","","✔️","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","SteelSeries Rival 3 (Old Firmware)","1038","1824","","","✔️","✔️","✔️",""
+"Steel Series Rival 3","Mouse","USB","SteelSeries Rival 3","1038","184C","","","✔️","✔️","✔️",""
+"Steel Series Sensei","Mouse","USB","SteelSeries Rival 310","1038","1720","","","❌","✔️","✔️",""
+"Steel Series Sensei","Mouse","USB","SteelSeries Rival 310 CS:GO Howl Edition","1038","171e","","","❌","✔️","✔️",""
+"Steel Series Sensei","Mouse","USB","SteelSeries Rival 310 PUBG Edition","1038","1736","","","❌","✔️","✔️",""
+"Steel Series Sensei","Mouse","USB","SteelSeries Sensei TEN","1038","1832","","","❌","✔️","✔️",""
+"Steel Series Sensei","Mouse","USB","SteelSeries Sensei TEN CS:GO Neon Rider Edition","1038","1834","","","❌","✔️","✔️",""
+"Steel Series Sensei","Mouse","USB","SteelSeries Sensei 310","1038","1722","","","❌","✔️","✔️",""
+"Steel Series Siberia","Headset","USB","SteelSeries Siberia 350","1038","1229","","","❌","❌","✔️",""
+"Tecknet Mouse","Mouse","USB","Tecknet M008","04D9","FC05","","","❌","✔️","✔️",""
+"Thermaltake PoseidonZ","Keyboard","USB","Thermaltake Poseidon Z RGB","264A","3006","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FA5)","264A","1FA5","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FA6)","264A","1FA6","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FA7)","264A","1FA7","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FA8)","264A","1FA8","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FA9)","264A","1FA9","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FAA)","264A","1FAA","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FAB)","264A","1FAB","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FAC)","264A","1FAC","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FAD)","264A","1FAD","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FAE)","264A","1FAE","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FAF)","264A","1FAF","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FB0)","264A","1FB0","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FB1)","264A","1FB1","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FB2)","264A","1FB2","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FB3)","264A","1FB3","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FB4)","264A","1FB4","","","❌","✔️","✔️",""
+"Thermaltake Riing","Cooler","USB","Thermaltake Riing (PID 0x1FB5)","264A","1FB5","","","❌","✔️","✔️",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2260)","264A","2260","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2261)","264A","2261","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2262)","264A","2262","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2263)","264A","2263","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2264)","264A","2264","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2265)","264A","2265","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2266)","264A","2266","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2267)","264A","2267","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2268)","264A","2268","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2269)","264A","2269","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x226A)","264A","226A","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x226B)","264A","226B","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x226C)","264A","226C","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x226D)","264A","226D","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x226E)","264A","226E","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x226F)","264A","226F","","","❌","✔️","❌",""
+"Thermaltake Riing Quad","Cooler","USB","Thermaltake Riing Quad (PID 0x2270)","264A","2270","","","❌","✔️","❌",""
+"ThingM Blink","LEDStrip","USB","ThingM blink(1) mk2","27B8","01ED","","","❌","✔️","✔️",""
+"Trust GXT 114","Mouse","USB","Trust GXT 114","145F","026D","","","❌","❌","✔️",""
+"Trust GXT 180","Mouse","USB","Trust GXT 180","145F","0248","","","❌","❌","✔️",""
+"Wooting Keyboards","Keyboard","USB","Wooting One (Legacy)","03EB","FF01","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two (Legacy)","03EB","FF02","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting One (Xbox)","31E3","1100","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting One (Classic)","31E3","1101","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting One (None)","31E3","1102","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two (Xbox)","31E3","1200","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two (Classic)","31E3","1201","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two (None)","31E3","1202","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two LE (Xbox)","31E3","1210","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two LE (Classic)","31E3","1211","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two LE (None)","31E3","1212","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two HE (Xbox)","31E3","1220","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two HE (Classic)","31E3","1221","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two HE (None)","31E3","1222","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two 60HE (Xbox)","31E3","1300","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two 60HE (Classic)","31E3","1301","","","❌","✔️","❌",""
+"Wooting Keyboards","Keyboard","USB","Wooting Two 60HE (None)","31E3","1302","","","❌","✔️","❌",""
+"ZET Edge Air Pro","Mouse","USB","ZET GAMING Edge Air Pro (Wireless)","25A7","FA3F","","","❌","❌","✔️",""
+"ZET Edge Air Pro","Mouse","USB","ZET GAMING Edge Air Pro","25A7","FA40","","","❌","❌","✔️",""
+"ZET Edge Air Pro","Mouse","USB","ZET GAMING Edge Air Elit (Wireless)","25A7","FA48","","","❌","❌","✔️",""
+"ZET Edge Air Pro","Mouse","USB","ZET GAMING Edge Air Elit","25A7","FA49","","","❌","❌","✔️",""
+"Zet Blade Optical","Keyboard","USB","ZET Blade Optical","2EA8","2125","","","❌","❌","✔️",""
+"Zalmna Z Sync","LEDStrip","USB","Zalman Z Sync","1C57","7ED0","","","❌","✔️","✔️",""
